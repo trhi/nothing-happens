@@ -1,0 +1,22 @@
+[
+	{
+		"title": "nothing",
+		"tags": "",
+		"body": "Nothing happens…",
+		"position": {
+			"x": 790,
+			"y": 511
+		},
+		"colorID": 0
+	},
+	{
+		"title": "something",
+		"tags": "",
+		"body": "Something happened!!\nRepeated sentence to test the speed of the text. Long sentence to test the speed of the text.Long sentence to test the speed of the text.Long sentence to test the speed of the text.\nNew sentence.",
+		"position": {
+			"x": 1137,
+			"y": 513
+		},
+		"colorID": 0
+	}
+]
