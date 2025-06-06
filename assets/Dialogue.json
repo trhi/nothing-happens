@@ -12,10 +12,30 @@
 	{
 		"title": "something",
 		"tags": "",
-		"body": "Something happened!!\nRepeated sentence to test the speed of the text. Long sentence to test the speed of the text.Long sentence to test the speed of the text.Long sentence to test the speed of the text.\nNew sentence.",
+		"body": "Something happened!!\nRepeated sentence to test the speed of the text. Long sentence to test the speed of the text.\nNew sentence.",
 		"position": {
 			"x": 1137,
-			"y": 513
+			"y": 241
+		},
+		"colorID": 0
+	},
+	{
+		"title": "tv",
+		"tags": "",
+		"body": "Turn on the TV?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 800,
+			"y": 214
+		},
+		"colorID": 0
+	},
+	{
+		"title": "pc",
+		"tags": "",
+		"body": "Work on the PC?\n[[ answer: yes|nothing]]",
+		"position": {
+			"x": 790,
+			"y": 813
 		},
 		"colorID": 0
 	}

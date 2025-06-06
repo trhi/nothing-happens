@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1726229638177785,
+    "zoomFactor": 1.5804687500000194,
     "windowMask": false
   },
   "objectsGroups": [
@@ -44,6 +44,9 @@
         },
         {
           "name": "Ground_Tilemap"
+        },
+        {
+          "name": "PC3"
         }
       ]
     },
@@ -60,6 +63,9 @@
       "objects": [
         {
           "name": "TV"
+        },
+        {
+          "name": "PC3"
         }
       ]
     },
@@ -368,13 +374,29 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "GUI",
-      "name": "UI_message",
-      "persistentUuid": "013ad09f-4bd9-47d5-aaea-1297ddb33a74",
+      "layer": "",
+      "name": "TV",
+      "persistentUuid": "08b10c38-d9f5-4bff-8e39-ed5ef0793f30",
       "width": 0,
-      "x": 698,
-      "y": 304,
-      "zOrder": 15,
+      "x": 709,
+      "y": 409,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TV",
+      "persistentUuid": "7860133c-ce57-43fb-aedb-6b2da4dc647a",
+      "width": 0,
+      "x": 703,
+      "y": 296,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -383,15 +405,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 35,
+      "height": 36,
       "keepRatio": true,
-      "layer": "GUI",
-      "name": "UI_interaction_background",
-      "persistentUuid": "8b439277-6643-4be9-8130-56b97cf54091",
-      "width": 148,
-      "x": 692,
-      "y": 299,
-      "zOrder": 10,
+      "layer": "",
+      "name": "PC3",
+      "persistentUuid": "956e33e6-9026-407c-9b74-bdafc5457684",
+      "width": 36,
+      "x": 638,
+      "y": 354,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -834,6 +856,72 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "PC3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 38.5
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 38.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -863,9 +951,6 @@
         "objectName": "dialogue_txt"
       },
       {
-        "objectName": "UI_message"
-      },
-      {
         "objectName": "NewSprite"
       },
       {
@@ -878,7 +963,13 @@
         "objectName": "NewPanelSprite"
       },
       {
+        "objectName": "UI_message"
+      },
+      {
         "objectName": "UI_interaction_background"
+      },
+      {
+        "objectName": "PC3"
       }
     ]
   },
@@ -1007,38 +1098,6 @@
                 "Playable_Character",
                 "Obstacles",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "UI_interaction_background",
-                "=",
-                "UI_message.X() - 10"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
-              },
-              "parameters": [
-                "UI_interaction_background",
-                "Resizable",
-                "=",
-                "UI_message.Width() + 20"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetHeight"
-              },
-              "parameters": [
-                "UI_interaction_background",
-                "Resizable",
-                "=",
-                "UI_message.Height() + 10"
               ]
             }
           ]
@@ -1202,68 +1261,13 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "UI_message",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "UI_interaction_background",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "UI_message",
-                "Text",
-                "=",
-                "\"Press E to interact\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Playable_Character",
-                "Uninteractable",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyFromTextReleased"
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"scrollText\""
               ]
             },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::IsDialogueRunning"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "Montre"
@@ -1281,38 +1285,61 @@
                 "dialogue_txt",
                 ""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"nothing\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Playable_Character",
+                    "TV",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"tv\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrollText\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_message"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_interaction_background"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Playable_Character",
+                    "PC3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"pc\""
+                  ]
+                }
               ]
             }
           ]
@@ -1359,22 +1386,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_message"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "UI_interaction_background"
-              ]
-            },
-            {
-              "type": {
                 "value": "DialogueTree::StopRunningDialogue"
               },
               "parameters": []
@@ -1415,19 +1426,7 @@
               "parameters": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "UI_message",
-                "Text",
-                "=",
-                "\"Press E to interact\""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1450,7 +1449,7 @@
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"Space\""
               ]
             },
             {
@@ -1564,6 +1563,22 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "DialogueTree::IsDialogueLineType"
               },
               "parameters": [
@@ -1627,7 +1642,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"e\""
+                    "\"Space\""
                   ]
                 },
                 {
@@ -1661,7 +1676,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"e\""
+                    "\"Space\""
                   ]
                 }
               ],
@@ -1688,7 +1703,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"e\""
+                    "\"Space\""
                   ]
                 }
               ],
@@ -1701,6 +1716,135 @@
                     "_txtScrollSpeed",
                     "=",
                     "100"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogue_txt",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectPreviousOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectNextOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ConfirmSelectOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::HasSelectedOptionChanged"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "dialogue_txt",
+                    "Text",
+                    "=",
+                    "DialogueTree::VerticalOptionsList(\">\")"
                   ]
                 }
               ]
@@ -1738,6 +1882,23 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "message box",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {

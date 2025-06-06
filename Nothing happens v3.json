@@ -15,11 +15,11 @@
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
     "projectUuid": "9feb0a7d-3fd7-4b69-ac27-072726d6430f",
-    "scaleMode": "nearest",
+    "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down-pixel",
     "version": "1.0.0",
-    "name": "Nothing happens",
+    "name": "Nothing happens v3",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -299,6 +299,14 @@
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue.json\"}",
         "name": "Dialogue",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -590,6 +598,22 @@
       "name": "_distToUninteractables",
       "type": "number",
       "value": 30
+    },
+    {
+      "name": "_uninteractable",
+      "type": "structure",
+      "children": [
+        {
+          "name": "X",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Y",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layouts": [
