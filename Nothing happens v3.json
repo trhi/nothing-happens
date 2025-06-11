@@ -128,7 +128,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/StartingPixelGroundTilemap.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\StartingPixelGroundTilemap.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -308,6 +308,106 @@
         "name": "NewSprite2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "blueprint@2x.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "blueprint@2x.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_StartingPixelGroundTilemap.png2.png\"}",
+        "name": "assets\\StartingPixelGroundTilemap.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_StartingPixelGroundTilemap.png3.png\"}",
+        "name": "assets\\StartingPixelGroundTilemap.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_StartingPixelGroundTilemap.png4.png\"}",
+        "name": "assets\\StartingPixelGroundTilemap.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\StartingPixelGroundTilemap.png5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\StartingPixelGroundTilemap.png6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\StartingPixelGroundTilemap.png7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_StartingPixelGroundTilemap.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_StartingPixelGroundTilemap.png8.png\"}",
+        "name": "assets\\StartingPixelGroundTilemap.png8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mapPack_tilesheet_2X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mapPack_tilesheet_2X.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/High Definition/5f0063211bf3fddcc0a7c68a2cafb734e57e96df0f5a55d4906ffcfac71936b0_mapPack_tilesheet_2X.png",
+          "name": "mapPack_tilesheet_2X.png"
+        }
+      },
+      {
+        "file": "tilesets/tileset001.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"tilesets/tileset001.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite2.png\"}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -376,12 +476,12 @@
           "IsCalledManually": false
         },
         {
-          "allowDiagonals": true,
-          "ignoreDefaultControls": false,
           "isFolded": true,
-          "maxSpeed": 100,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "allowDiagonals": true,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 100,
           "acceleration": 450,
           "angularMaxSpeed": 150,
           "deceleration": 900,
@@ -434,19 +534,19 @@
                     [
                       {
                         "x": 6,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 25
+                        "y": 32
                       },
                       {
                         "x": 6,
-                        "y": 25
+                        "y": 32
                       }
                     ]
                   ]
@@ -470,19 +570,19 @@
                     [
                       {
                         "x": 6,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 25
+                        "y": 32
                       },
                       {
                         "x": 6,
-                        "y": 25
+                        "y": 32
                       }
                     ]
                   ]
@@ -519,19 +619,19 @@
                     [
                       {
                         "x": 6,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 25
+                        "y": 32
                       },
                       {
                         "x": 6,
-                        "y": 25
+                        "y": 32
                       }
                     ]
                   ]
@@ -555,19 +655,19 @@
                     [
                       {
                         "x": 6,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 13
+                        "y": 5
                       },
                       {
                         "x": 26,
-                        "y": 25
+                        "y": 32
                       },
                       {
                         "x": 6,
-                        "y": 25
+                        "y": 32
                       }
                     ]
                   ]
@@ -614,6 +714,52 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "_globalTime",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "_backgroundColor",
+      "type": "structure",
+      "children": [
+        {
+          "name": "B",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "G",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "R",
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "_lightRadius",
+      "type": "number",
+      "value": 800
+    },
+    {
+      "name": "_currentLightRadius",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "_filterOpacity",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "_currentFilterOpacity",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -639,6 +785,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/ysort"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashlayer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/colorconversion"
     }
   ],
   "externalLayouts": []

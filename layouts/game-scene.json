@@ -3,11 +3,11 @@
   "disableInputWhenNotFocused": true,
   "mangledName": "Game_32Scene",
   "name": "Game Scene",
-  "r": 1,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 96,
+  "v": 122,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.5804687500000194,
+    "zoomFactor": 0.8141881203710093,
     "windowMask": false
   },
   "objectsGroups": [
@@ -43,10 +43,10 @@
           "name": "TV"
         },
         {
-          "name": "Ground_Tilemap"
+          "name": "PC3"
         },
         {
-          "name": "PC3"
+          "name": "TileSet"
         }
       ]
     },
@@ -92,52 +92,14 @@
     {
       "angle": 0,
       "customSize": false,
-      "height": 430.18181818181813,
-      "keepRatio": true,
-      "layer": "",
-      "locked": true,
-      "name": "Ground_Tilemap",
-      "persistentUuid": "140c37d7-fd0a-4882-83ed-142e8f549ba8",
-      "width": 728,
-      "x": 288,
-      "y": 160,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":22,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,3,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,0,0,0],[0,0,0,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,0,0,2],[0,0,0,7,-1,-1,-1,-1,-1,-1,0,0,0,0,0,2,0,-1,7,0,0,0],[0,2,0,7,-1,0,1,2,0,1,0,0,0,0,2,0,0,-1,7,0,0,0],[0,0,0,7,-1,0,0,0,0,0,0,0,0,0,0,0,0,-1,7,0,0,0],[0,0,0,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,0,0,0],[0,0,0,7,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,7,0,0,0],[0,0,0,6,7,7,7,7,7,7,-1,-1,7,7,7,7,7,7,8,0,0,0],[0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "Plant",
       "persistentUuid": "1ef6f774-a666-42ab-bcc0-4ecdb8656e6a",
       "width": 0,
-      "x": 896,
-      "y": 288,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Plant",
-      "persistentUuid": "a95eccb9-3ddc-4f20-aeec-55dd40e9cf56",
-      "width": 0,
-      "x": 448,
-      "y": 224,
+      "x": 806,
+      "y": 97,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -152,8 +114,8 @@
       "name": "Plant",
       "persistentUuid": "726d874b-fb5d-4e42-82f6-c3d2ab5aefbd",
       "width": 0,
-      "x": 768,
-      "y": 512,
+      "x": 846,
+      "y": 515,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -169,8 +131,8 @@
       "name": "Wall",
       "persistentUuid": "22bf0d32-275e-4e74-b120-bfa34be62474",
       "width": 64,
-      "x": 320,
-      "y": 384,
+      "x": 311,
+      "y": 487,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -185,8 +147,8 @@
       "name": "Plant",
       "persistentUuid": "4422fbf3-9071-4d22-97ee-f258cac25ee2",
       "width": 0,
-      "x": 416,
-      "y": 224,
+      "x": 374,
+      "y": 252,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,8 +163,8 @@
       "name": "Plant",
       "persistentUuid": "feccce61-ac7a-40f8-925e-84ce0766fc15",
       "width": 0,
-      "x": 512,
-      "y": 224,
+      "x": 41,
+      "y": 44,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -217,8 +179,8 @@
       "name": "Plant",
       "persistentUuid": "e8b8a032-ae32-41b2-9468-0aad5f3d0e6c",
       "width": 0,
-      "x": 896,
-      "y": 416,
+      "x": 738,
+      "y": 482,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,8 +211,8 @@
       "name": "Plant",
       "persistentUuid": "cb56c589-3dec-471f-9f78-46c50bc95adc",
       "width": 0,
-      "x": 704,
-      "y": 512,
+      "x": 642,
+      "y": 188,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -298,8 +260,8 @@
       "name": "Wall",
       "persistentUuid": "c7ce716c-4fa4-4a66-9ec8-e0fd2a3937c4",
       "width": 64,
-      "x": 515,
-      "y": 334,
+      "x": 524,
+      "y": 648,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,8 +308,8 @@
       "name": "TV",
       "persistentUuid": "fc53aa4f-776a-4caa-a715-31f43b27dc0d",
       "width": 0,
-      "x": 763,
-      "y": 356,
+      "x": 64,
+      "y": 123,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -362,8 +324,8 @@
       "name": "Playable_Character",
       "persistentUuid": "9b2f81f4-a2bc-4727-9937-5592aeb6a1fc",
       "width": 0,
-      "x": 715,
-      "y": 354,
+      "x": 103,
+      "y": 82,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -378,24 +340,8 @@
       "name": "TV",
       "persistentUuid": "08b10c38-d9f5-4bff-8e39-ed5ef0793f30",
       "width": 0,
-      "x": 709,
-      "y": 409,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TV",
-      "persistentUuid": "7860133c-ce57-43fb-aedb-6b2da4dc647a",
-      "width": 0,
-      "x": 703,
-      "y": 296,
+      "x": 960,
+      "y": 504,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -411,9 +357,114 @@
       "name": "PC3",
       "persistentUuid": "956e33e6-9026-407c-9b74-bdafc5457684",
       "width": 36,
-      "x": 638,
-      "y": 354,
+      "x": 110,
+      "y": 127,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 709,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "3fe11c22-cfb3-47b0-8209-97cba0c0e230",
+      "width": 1073,
+      "x": 93,
+      "y": 6,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9579045837231058,
+      "height": 682.0280636108512,
+      "keepRatio": true,
+      "layer": "",
+      "name": "background_square",
+      "opacity": 64,
+      "persistentUuid": "b41fedcd-e356-42db-8aed-fe031cc8fc91",
+      "width": 1024,
+      "x": 0,
+      "y": 0,
+      "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Light",
+      "persistentUuid": "539546a0-65d9-4172-be92-660bb78aa893",
+      "width": 0,
+      "x": 656,
+      "y": 354,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TileSet",
+      "persistentUuid": "991c1b4a-966c-4b6a-9be2-6272dfb8324e",
+      "width": 478.23529411764775,
+      "x": 0,
+      "y": 0,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":60,\"dimY\":25,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,6,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[25,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,33,34,34,34,34,34,34,34,34,34,34,34,34,24,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[3,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,34,34,34,34,34,34,34,34,34,34,34,34,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,25,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[22,34,34,34,34,34,34,34,34,34,34,35,-1,-1,-1,-1,33,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,24,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "GUI",
+      "name": "Timer_text",
+      "persistentUuid": "ef8a2591-adfd-4f13-a5f8-4fcd61f40e34",
+      "width": 0,
+      "x": 131,
+      "y": 5,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "layer": "GUI",
+      "name": "Filter",
+      "persistentUuid": "293be6a3-0ffc-47f4-8969-f6756cc879e8",
+      "width": 63,
+      "x": 0,
+      "y": 0,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -435,21 +486,6 @@
       "effects": [],
       "behaviors": [],
       "content": {}
-    },
-    {
-      "assetStoreId": "",
-      "name": "Ground_Tilemap",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "assets\\StartingPixelGroundTilemap.png",
-        "rowCount": 3,
-        "columnCount": 3,
-        "tileSize": 32,
-        "tilesWithHitBox": "3,6,4,7,5,8"
-      }
     },
     {
       "assetStoreId": "",
@@ -707,7 +743,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TV",
       "type": "Sprite",
@@ -749,19 +785,19 @@
                     [
                       {
                         "x": 3,
-                        "y": 6
+                        "y": 16
                       },
                       {
                         "x": 30,
-                        "y": 6
+                        "y": 16
                       },
                       {
                         "x": 30,
-                        "y": 27
+                        "y": 24
                       },
                       {
                         "x": 3,
-                        "y": 27
+                        "y": 24
                       }
                     ]
                   ]
@@ -900,11 +936,11 @@
                     [
                       {
                         "x": 13.5,
-                        "y": 11.5
+                        "y": 29
                       },
                       {
                         "x": 50.5,
-                        "y": 11.5
+                        "y": 29
                       },
                       {
                         "x": 50.5,
@@ -922,13 +958,216 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Blueprint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "blueprint@2x.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1480,
+                        "y": 0
+                      },
+                      {
+                        "x": 1480,
+                        "y": 980
+                      },
+                      {
+                        "x": 0,
+                        "y": 980
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TileSet",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "tilesets/tileset001.png",
+        "rowCount": 5,
+        "columnCount": 11,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,11,22,33,1,12,23,34,2,13,24,35,3,14,25,36,4,15,26,37,48,5,16,27,38,49,6,17,28,39,50,7,18,29,40,51,8,19,30,41,52,9,20,31,42,10,21,32,43"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "background_square",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Light",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 500,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Filter",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Ground_Tilemap"
+        "objectName": "Blueprint"
       },
       {
         "objectName": "Wall"
@@ -970,6 +1209,21 @@
       },
       {
         "objectName": "PC3"
+      },
+      {
+        "objectName": "TileSet"
+      },
+      {
+        "objectName": "background_square"
+      },
+      {
+        "objectName": "Light"
+      },
+      {
+        "objectName": "Filter"
+      },
+      {
+        "objectName": "Timer_text"
       }
     ]
   },
@@ -1083,6 +1337,75 @@
                 "",
                 "Dialogue"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Blueprint"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"mainTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"0;122;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "Light",
+                "\"255;255;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "Filter",
+                "Resizable",
+                "=",
+                "1280"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "Filter",
+                "Resizable",
+                "=",
+                "720"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Filter",
+                "=",
+                "0",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -1099,6 +1422,135 @@
                 "Obstacles",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Light",
+                "=",
+                "CameraCenterX()",
+                "=",
+                "CameraCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_globalTime",
+                "=",
+                "round(TimerElapsedTime(\"mainTimer\"))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Timer_text",
+                "Text",
+                "=",
+                "ToString (_globalTime)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_currentLightRadius",
+                "=",
+                "_lightRadius - _globalTime * 40"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetRadius"
+              },
+              "parameters": [
+                "Light",
+                "_currentLightRadius"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_currentFilterOpacity",
+                "=",
+                "_filterOpacity + _globalTime * 10"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Filter",
+                "Opacity",
+                "=",
+                "_currentFilterOpacity"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "_currentLightRadius",
+                    "<=",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Lighting::SetRadius"
+                  },
+                  "parameters": [
+                    "Light",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "_currentFilterOpacity",
+                    ">=",
+                    "150"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Filter",
+                    "Opacity",
+                    "=",
+                    "150"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1110,7 +1562,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1574,7 +2025,6 @@
           "actions": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1643,6 +2093,42 @@
                   "parameters": [
                     "",
                     "\"Space\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueRunning"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "dialogue_background",
+                    "",
+                    "yes",
+                    ""
                   ]
                 },
                 {
@@ -1894,8 +2380,8 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
-      "name": "message box",
+      "isLocked": true,
+      "name": "MobileControls",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1911,25 +2397,44 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
-      "name": "MobileControls",
+      "isLocked": true,
+      "name": "GUI",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "DropShadow",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.5,
+            "blur": 5,
+            "distance": 5,
+            "padding": 50,
+            "quality": 5,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {
+            "shadowOnly": false
+          }
+        }
+      ]
     },
     {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "GUI",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": true,
+      "name": "Lighting",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
