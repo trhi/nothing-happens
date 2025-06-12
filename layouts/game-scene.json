@@ -1406,6 +1406,46 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_speedLightRadius",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_speedFilter",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_smallerLightRadius",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_maxFilterDarkness",
+                "=",
+                "150"
+              ]
             }
           ]
         },
@@ -1463,7 +1503,7 @@
               "parameters": [
                 "_currentLightRadius",
                 "=",
-                "_lightRadius - _globalTime * 40"
+                "_lightRadius - _globalTime * _speedLightRadius"
               ]
             },
             {
@@ -1482,7 +1522,7 @@
               "parameters": [
                 "_currentFilterOpacity",
                 "=",
-                "_filterOpacity + _globalTime * 10"
+                "_filterOpacity + _globalTime * _speedFilter"
               ]
             },
             {
@@ -1508,7 +1548,7 @@
                   "parameters": [
                     "_currentLightRadius",
                     "<=",
-                    "100"
+                    "_smallerLightRadius"
                   ]
                 }
               ],
@@ -1519,7 +1559,7 @@
                   },
                   "parameters": [
                     "Light",
-                    "100"
+                    "_smallerLightRadius"
                   ]
                 }
               ]
@@ -1534,7 +1574,7 @@
                   "parameters": [
                     "_currentFilterOpacity",
                     ">=",
-                    "150"
+                    "_maxFilterDarkness"
                   ]
                 }
               ],
@@ -1547,7 +1587,7 @@
                     "Filter",
                     "Opacity",
                     "=",
-                    "150"
+                    "_maxFilterDarkness"
                   ]
                 }
               ]
@@ -1626,11 +1666,31 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Left\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"Primary\"",
+                        "\"Left\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1652,11 +1712,31 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Right\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"Primary\"",
+                        "\"Right\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],

@@ -760,6 +760,26 @@
       "name": "_currentFilterOpacity",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "_speedLightRadius",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "_speedFilter",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "_maxFilterDarkness",
+      "type": "number",
+      "value": 150
+    },
+    {
+      "name": "_smallerLightRadius",
+      "type": "number",
+      "value": 100
     }
   ],
   "layouts": [
