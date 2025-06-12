@@ -1591,6 +1591,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }
@@ -2018,13 +2023,34 @@
                 "",
                 "\"scrollText\""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"something\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Playable_Character",
+                    "Plant",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"something\""
+                  ]
+                }
               ]
             }
           ]
