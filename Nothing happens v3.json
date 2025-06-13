@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "intro",
   "gdVersion": {
     "build": 231,
     "major": 5,
@@ -15,7 +15,7 @@
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
     "projectUuid": "9feb0a7d-3fd7-4b69-ac27-072726d6430f",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down-pixel",
     "version": "1.0.0",
@@ -414,7 +414,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -422,7 +422,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -430,7 +430,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "idle3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -438,7 +438,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -446,7 +446,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -454,7 +454,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -462,7 +462,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -470,7 +470,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -478,7 +478,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -486,7 +486,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -494,7 +494,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -502,7 +502,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -510,7 +510,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite11",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -518,7 +518,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite12",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -526,7 +526,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite13",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -534,7 +534,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite14",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -542,7 +542,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite15",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -550,7 +550,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite16",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -558,7 +558,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite17",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -566,7 +566,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite18",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -574,7 +574,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite19",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -582,7 +582,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite20",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -590,7 +590,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite21",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -598,7 +598,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite22",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -606,7 +606,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite23",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -614,7 +614,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite24",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -622,7 +622,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite25",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -630,7 +630,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -638,7 +638,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite26",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -646,7 +646,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -654,7 +654,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite27",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -662,7 +662,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite28",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -670,7 +670,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite29",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -678,7 +678,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite30",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -686,7 +686,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite31",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -694,7 +694,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite32",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -702,7 +702,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelObstacle7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -710,7 +710,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite33",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -718,7 +718,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite34",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -726,7 +726,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite35",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -734,7 +734,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite36",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -742,7 +742,39 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite37",
-        "smoothed": true,
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk8",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -853,7 +885,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "idle",
+                  "image": "idle4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -889,7 +921,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "idle2",
+                  "image": "idle5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -934,11 +966,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.4,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk5",
+                  "image": "walk7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -974,7 +1006,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk6",
+                  "image": "walk8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1116,12 +1148,21 @@
       "name": "_smallerLightRadius",
       "type": "number",
       "value": 100
+    },
+    {
+      "name": "_gameTimeLimit",
+      "type": "number",
+      "value": 300
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene"
+      "referenceTo": "/layouts/intro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main_scene"
     }
   ],
   "externalEvents": [],
