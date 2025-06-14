@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994469,
+    "zoomFactor": 0.584378441074129,
     "windowMask": false
   },
   "objectsGroups": [
@@ -361,8 +361,8 @@
       "name": "Joystick",
       "persistentUuid": "b0c31bb4-0add-4dda-9367-c5136e4b118d",
       "width": 0,
-      "x": 176,
-      "y": 576,
+      "x": 242,
+      "y": 527,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -532,8 +532,8 @@
       "name": "Timer_text",
       "persistentUuid": "ef8a2591-adfd-4f13-a5f8-4fcd61f40e34",
       "width": 0,
-      "x": 131,
-      "y": 5,
+      "x": 14,
+      "y": 10,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -1233,25 +1233,59 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "GUI",
+      "name": "Filter_end",
+      "persistentUuid": "7c0b59d2-c64c-4b86-a75d-889b087e415b",
+      "width": 0,
+      "x": 91,
+      "y": -2,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 77,
+      "height": 102,
+      "keepRatio": true,
+      "layer": "MobileControls",
+      "name": "button",
+      "persistentUuid": "5602aa70-2638-4f93-9686-3442cd55bcf6",
+      "width": 102,
+      "x": 1015,
+      "y": 477,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "GUI",
+      "name": "instructions",
+      "persistentUuid": "6304234b-f953-4a79-957b-ce60074d5a91",
+      "width": 1274,
+      "x": 6,
+      "y": 685,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "name": "Message_box",
-      "type": "Message_box::Message_box",
-      "variant": "",
-      "variables": [
-        {
-          "name": "_txt",
-          "type": "string",
-          "value": "0"
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "content": {}
-    },
     {
       "assetStoreId": "",
       "height": 32,
@@ -1351,7 +1385,20 @@
       "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
       "variant": "",
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "content": {},
       "childrenContent": {
@@ -1365,11 +1412,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Flat dark joystick border.png",
+                      "image": "Idle",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1400,11 +1448,12 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Flat dark joystick thumb.png",
+                      "image": "Idle2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1426,86 +1475,6 @@
           ]
         }
       }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "dialogue_txt",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 4,
-          "leftEdgeAnchor": 4,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 4,
-          "topEdgeAnchor": 4,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "string": "Message box V4",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Message box V4",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "255;255;255"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bottomMargin": 10,
-      "height": 32,
-      "leftMargin": 10,
-      "name": "dialogue_background",
-      "rightMargin": 10,
-      "texture": "NewPanelSprite5",
-      "tiled": false,
-      "topMargin": 10,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 4,
-          "leftEdgeAnchor": 4,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 4,
-          "topEdgeAnchor": 1,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -1659,7 +1628,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PC3",
       "type": "Sprite",
@@ -1700,20 +1669,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 31.5,
-                        "y": 33
+                        "x": 10,
+                        "y": 11
                       },
                       {
-                        "x": 114,
-                        "y": 39
+                        "x": 119,
+                        "y": 11
                       },
                       {
-                        "x": 116,
-                        "y": 79.5
+                        "x": 119,
+                        "y": 107
                       },
                       {
-                        "x": 22.5,
-                        "y": 78.5
+                        "x": 10,
+                        "y": 107
                       }
                     ]
                   ]
@@ -1812,20 +1781,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Light",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 500,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": ""
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "Timer_text",
@@ -1865,80 +1820,6 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Filter",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "ColorReplace",
-          "name": "Effect",
-          "doubleParameters": {
-            "epsilon": 0.4
-          },
-          "stringParameters": {
-            "newColor": "0;15;66",
-            "originalColor": "0;0;0"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -4588,6 +4469,146 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+      "name": "button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "19;0;230"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 6,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Idle3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 64
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Idle3",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 64
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "INTERACT",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 230,
+            "g": 0,
+            "r": 19
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "INTERACT",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 12,
+            "color": "19;0;230"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 64,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Idle4",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 64
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "instructions",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "ARROWS TO MOVE / SPACEBAR TO INTERACT",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "ARROWS TO MOVE / SPACEBAR TO INTERACT",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 10,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4728,10 +4749,16 @@
         "folderName": "UI",
         "children": [
           {
+            "objectName": "instructions"
+          },
+          {
             "folderName": "Mobile Controls",
             "children": [
               {
                 "objectName": "Joystick"
+              },
+              {
+                "objectName": "button"
               }
             ]
           },
@@ -4743,20 +4770,6 @@
           },
           {
             "objectName": "Timer_text"
-          }
-        ]
-      },
-      {
-        "folderName": "dialogue",
-        "children": [
-          {
-            "objectName": "dialogue_background"
-          },
-          {
-            "objectName": "dialogue_txt"
-          },
-          {
-            "objectName": "Message_box"
           }
         ]
       },
@@ -4780,12 +4793,6 @@
       },
       {
         "objectName": "background_square"
-      },
-      {
-        "objectName": "Light"
-      },
-      {
-        "objectName": "Filter"
       }
     ]
   },
@@ -4825,118 +4832,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "dialogue_txt"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "dialogue_background"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "dialogue_background",
-                "=",
-                "dialogue_txt.ZOrder() - 1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "dialogue_background",
-                "=",
-                "SceneWindowWidth() / 2 - dialogue_background.Width() / 2 - 10"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "dialogue_txt",
-                "=",
-                "SceneWindowWidth() / 2 - dialogue_txt.Width() / 2"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetWidth"
-              },
-              "parameters": [
-                "dialogue_background",
-                "Resizable",
-                "=",
-                "dialogue_txt.Width() + 10"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetHeight"
-              },
-              "parameters": [
-                "dialogue_background",
-                "Resizable",
-                "=",
-                "dialogue_txt.Height() + 40"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
-                "Dialogue"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Blueprint"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"mainTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneBackground"
-              },
-              "parameters": [
-                "",
-                "\"0;122;255\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Lighting::SetColor"
-              },
-              "parameters": [
-                "Light",
-                "\"255;255;255\""
-              ]
-            },
-            {
-              "type": {
                 "value": "ResizableCapability::ResizableBehavior::SetWidth"
               },
               "parameters": [
@@ -4944,17 +4839,6 @@
                 "Resizable",
                 "=",
                 "1280"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetHeight"
-              },
-              "parameters": [
-                "Filter",
-                "Resizable",
-                "=",
-                "720"
               ]
             },
             {
@@ -4971,12 +4855,159 @@
             },
             {
               "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "Filter",
+                "Resizable",
+                "=",
+                "720"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Filter",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+              },
+              "parameters": [
+                "Filter_end",
+                "Resizable",
+                "=",
+                "1280"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Filter_end",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Filter_end",
+                "=",
+                "0",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetHeight"
+              },
+              "parameters": [
+                "Filter_end",
+                "Resizable",
+                "=",
+                "720"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "instructions",
+                "Opacity",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Filter_end"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"mainTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogue_background"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "Light",
+                "\"255;255;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"0;122;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Blueprint"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogue_txt"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "_speedLightRadius",
                 "=",
-                "10"
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_gameTimeLimit",
+                "=",
+                "300"
               ]
             },
             {
@@ -4986,7 +5017,7 @@
               "parameters": [
                 "_speedFilter",
                 "=",
-                "3"
+                "0.5"
               ]
             },
             {
@@ -5011,16 +5042,410 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
-                "_gameTimeLimit",
-                "=",
-                "300"
+                "Filter",
+                "Tween",
+                "\"filter_transition_toLight\"",
+                "0",
+                "\"linear\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
               ]
             }
           ]
         },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Filter",
+                "Tween",
+                "\"filter_transition_toLight\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_currentFilterOpacity",
+                "=",
+                "_filterOpacity + _globalTime * _speedFilter"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Filter",
+                "Opacity",
+                "=",
+                "_currentFilterOpacity"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Dialogue messages",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "DialogueEvents"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Game ends",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "_globalTime",
+                "=",
+                "_gameTimeLimit"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Filter",
+                "Flash",
+                "0.5",
+                "\"Effect\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Stop"
+              },
+              "parameters": [
+                "Filter",
+                "Flash",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_smallerLightRadius",
+                "=",
+                "400"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "_maxFilterDarkness",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogue_background",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogue_txt",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"end\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Playable_Character",
+                "TopDownMovement",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "_globalTime",
+                ">=",
+                "_gameTimeLimit"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::GoToNextLine"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+              },
+              "parameters": [
+                "\"isPlayAgain\"",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StopRunningDialogue"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogue_txt"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogue_background"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Filter_end",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Filter_end",
+                "Tween",
+                "\"Filter_end.toDark\"",
+                "255",
+                "\"linear\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Filter_end",
+                "Tween",
+                "\"Filter_end.toDark\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::SetBooleanVariable"
+              },
+              "parameters": [
+                "\"isPlayAgain\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"intro\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Loop",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -5070,16 +5495,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "_currentLightRadius",
-                "=",
-                "_lightRadius - _globalTime * _speedLightRadius"
-              ]
-            },
-            {
-              "type": {
                 "value": "Lighting::SetRadius"
               },
               "parameters": [
@@ -5092,20 +5507,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "_currentFilterOpacity",
+                "_currentLightRadius",
                 "=",
-                "_filterOpacity + _globalTime * _speedFilter"
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "Filter",
-                "Opacity",
-                "=",
-                "_currentFilterOpacity"
+                "_lightRadius - _globalTime * _speedLightRadius"
               ]
             }
           ],
@@ -5162,48 +5566,6 @@
                     "_maxFilterDarkness"
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "_globalTime",
-                "=",
-                "_gameTimeLimit"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "_smallerLightRadius",
-                "=",
-                "400"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "_maxFilterDarkness",
-                "=",
-                "0"
               ]
             }
           ]
@@ -5378,12 +5740,12 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Interaction with Uninteractables",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5883,6 +6245,7 @@
           "actions": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5899,19 +6262,36 @@
             },
             {
               "type": {
-                "value": "KeyFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Space\""
-              ]
-            },
-            {
-              "type": {
                 "inverted": true,
                 "value": "DialogueTree::IsDialogueRunning"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "button",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "actions": [
@@ -6609,7 +6989,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Dialogue messages",
+      "name": "Touch UI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -6618,14 +6998,28 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "DialogueTree::IsDialogueLineType"
+                "value": "DepartScene"
               },
               "parameters": [
-                "\"options\""
+                ""
               ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"MobileControls\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         },
         {
@@ -6633,310 +7027,27 @@
           "conditions": [
             {
               "type": {
-                "value": "DialogueTree::IsDialogueLineType"
+                "value": "SystemInfo::IsMobile"
               },
-              "parameters": [
-                "\"text\""
-              ]
-            }
-          ],
-          "actions": [
+              "parameters": []
+            },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SystemInfo::HasTouchScreen"
               },
               "parameters": [
-                "dialogue_txt",
-                "Text",
-                "=",
-                "DialogueTree::ClippedLineText()"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"scrollText\"",
-                    ">=",
-                    "Variable(_txtScrollSpeed)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::ScrollClippedText"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"scrollText\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::IsDialogueRunning"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::GoToNextLine"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "dialogue_background",
-                    "",
-                    "yes",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::IsDialogueRunning"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::GoToNextLine"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "_txtScrollSpeed",
-                    "=",
-                    "0.01"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "_txtScrollSpeed",
-                    "=",
-                    "100"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "dialogue_txt",
                 ""
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::SelectPreviousOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Down\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::SelectNextOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::ConfirmSelectOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::HasSelectedOptionChanged"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "dialogue_txt",
-                    "Text",
-                    "=",
-                    "DialogueTree::VerticalOptionsList(\">\")"
-                  ]
-                }
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"MobileControls\""
               ]
             }
           ]
@@ -6956,7 +7067,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -6997,12 +7108,25 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "MobileControls",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "ColorReplace",
+          "name": "Effect",
+          "doubleParameters": {
+            "epsilon": 0.4
+          },
+          "stringParameters": {
+            "newColor": "19;0;230",
+            "originalColor": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ]
     },
     {
       "ambientLightColorB": 200,
@@ -7072,6 +7196,14 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
+      "name": "FlashEffect",
+      "type": "Flash::FlashEffect"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -7102,6 +7234,10 @@
     {
       "name": "TopDownMultitouchMapper",
       "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     },
     {
       "name": "YSort",

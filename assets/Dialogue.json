@@ -12,10 +12,10 @@
 	{
 		"title": "something",
 		"tags": "",
-		"body": "Something happened!!\nRepeated sentence to test the speed of the text. Long sentence to test the speed of the text.\nNew sentence.",
+		"body": "Something happened!!\nNew sentence.",
 		"position": {
-			"x": 1137,
-			"y": 241
+			"x": 2100,
+			"y": 190
 		},
 		"colorID": 0
 	},
@@ -36,6 +36,296 @@
 		"position": {
 			"x": 790,
 			"y": 813
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window",
+		"tags": "",
+		"body": "You look at the window.\nThe street filled with motion.\nUnusual motion. Kids play.\nThe window looks back. \nYou look further.\nFurther away.",
+		"position": {
+			"x": 2105,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "book",
+		"tags": "",
+		"body": "You open the book.\nThe book reminds you of a once lost age,\nA time in which time was not a matter of time.\nTime stagnant,\nTime infinite,\nNever-ending,\nStill and perpetuous.",
+		"position": {
+			"x": 2102,
+			"y": 664
+		},
+		"colorID": 0
+	},
+	{
+		"title": "typewriter",
+		"tags": "",
+		"body": "You start writing.\nWriting takes you deep into self-reflection\nDemons, frustrations, joy, excesses, etc. are expunged\nThrough messed up and garbled amateur writing,\nAnd it feels good.",
+		"position": {
+			"x": 2106,
+			"y": 942
+		},
+		"colorID": 0
+	},
+	{
+		"title": "drawing",
+		"tags": "",
+		"body": "You start drawing.\nCan’t remember when you drew last time.\nTwisted figures – lack of practice – emerge\nCome alive.\nStill drawn.",
+		"position": {
+			"x": 2107,
+			"y": 1231
+		},
+		"colorID": 0
+	},
+	{
+		"title": "bed",
+		"tags": "",
+		"body": "Sleep…\nEverything seems so quiet, \nWith the absence of blue light\nAnd electric buzzes.",
+		"position": {
+			"x": 2385,
+			"y": 187
+		},
+		"colorID": 0
+	},
+	{
+		"title": "couch",
+		"tags": "",
+		"body": "You rest on the couch.\nStare at the ceiling,\nA blank white canvas.",
+		"position": {
+			"x": 2383,
+			"y": 451
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plants",
+		"tags": "",
+		"body": "You watch the stillness of the plant.\nYou know it is moving\nBut you cannot perceive its movement\nBut you try\nAs hard as you can\nKnowing you’ll fail to see,\nFinding yourself in the middle of a conundrum\nOf your limitations to experience life.",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "meditate",
+		"tags": "",
+		"body": "You start meditating.\nEmpty your mind.\nNothing \nZip\nBlip\nNada\nNope…",
+		"position": {
+			"x": 2384,
+			"y": 959
+		},
+		"colorID": 0
+	},
+	{
+		"title": "candles",
+		"tags": "",
+		"body": "You light the candle.\nYou hate the smell of it.\nYou know it is not healthy.\nYet you light it anyway.\nYou can’t accept the darkness.\nAccept the natural darkness.\nIt is natural to be in the dark.\nYou need to see.\nYou need light…\nEven knowing it is not good for you.",
+		"position": {
+			"x": 2401,
+			"y": 1244
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photos",
+		"tags": "",
+		"body": "You look at the photo.\nYou miss your darlings.\nYou cannot get in touch with them.\nYou worry about them.\nYou worry.\nIf you ever loved, \nYou worry.\nMaybe more than you love.\nYou worry.\nMaybe love is worry\nTo miss\nTo be missed\nTo worry\nTo want to be there.\nTo love.",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "fridge",
+		"tags": "",
+		"body": "You open the fridge.\nFood will perish.\nOne never knows when expiration dates are anticipated.\nAhead of time.",
+		"position": {
+			"x": 2694,
+			"y": 449
+		},
+		"colorID": 0
+	},
+	{
+		"title": "apple",
+		"tags": "",
+		"body": "You bite the apple.\nMore often\nYou should taste it’s mundane flavor\nrefreshing, hard, red, crunchy\nMundane \nMore often mundane,\nEarthly\nMundane.",
+		"position": {
+			"x": 2709,
+			"y": 706
+		},
+		"colorID": 0
+	},
+	{
+		"title": "water",
+		"tags": "",
+		"body": "You drink a full cup of water\nWater sold as better water than other water\nAnd other bottled water, as well\nWater enveloped in plastic\nFor months\nTransported in plastic\nHeated by the sun\nWeird blob shaped plastic with water inside\nheated by the sun.",
+		"position": {
+			"x": 2716,
+			"y": 978
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cookies",
+		"tags": "",
+		"body": "You eat cookies\nEfficient in filling the gaps of lost pleasures\nA denial of loss you don’t want to deal with\nMaybe not to many\nMaybe not for long\nJust long enough\nMaybe just innocent pleasure",
+		"position": {
+			"x": 2739,
+			"y": 1228
+		},
+		"colorID": 0
+	},
+	{
+		"title": "game console",
+		"tags": "",
+		"body": "Play a videogame?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1169,
+			"y": 229
+		},
+		"colorID": 0
+	},
+	{
+		"title": "stove",
+		"tags": "",
+		"body": "Cook something?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1168,
+			"y": 517
+		},
+		"colorID": 0
+	},
+	{
+		"title": "phone",
+		"tags": "",
+		"body": "Call your beloved ones?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1142,
+			"y": 794
+		},
+		"colorID": 0
+	},
+	{
+		"title": "washing",
+		"tags": "",
+		"body": "Wash some clothes?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 1137,
+			"y": 1060
+		},
+		"colorID": 0
+	},
+	{
+		"title": "water",
+		"tags": "",
+		"body": "Wash?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 830,
+			"y": 1097
+		},
+		"colorID": 0
+	},
+	{
+		"title": "lights",
+		"tags": "",
+		"body": "Turn on the lights?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 592,
+			"y": 1087
+		},
+		"colorID": 0
+	},
+	{
+		"title": "stereo",
+		"tags": "",
+		"body": "Listen to some music?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 435,
+			"y": 780
+		},
+		"colorID": 0
+	},
+	{
+		"title": "clock",
+		"tags": "",
+		"body": "What a time!\nWhat time…\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nfinite and never-ending…",
+		"position": {
+			"x": 2998,
+			"y": 194
+		},
+		"colorID": 0
+	},
+	{
+		"title": "microwave",
+		"tags": "",
+		"body": "Warm some food in the microwave?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 406,
+			"y": 488
+		},
+		"colorID": 0
+	},
+	{
+		"title": "heater",
+		"tags": "",
+		"body": "Turn the heater on?\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 364,
+			"y": 246
+		},
+		"colorID": 0
+	},
+	{
+		"title": "leave",
+		"tags": "",
+		"body": "You never bothered to learn how to manually bypass the electronic lock…\n[[answer:yes|nothing]]",
+		"position": {
+			"x": 470,
+			"y": -36
+		},
+		"colorID": 0
+	},
+	{
+		"title": "newspaper",
+		"tags": "",
+		"body": "You start reading the newspaper.\nHorrible, disgusting, everywhere.\nYou put it down…",
+		"position": {
+			"x": 2968,
+			"y": 702
+		},
+		"colorID": 0
+	},
+	{
+		"title": "burger",
+		"tags": "",
+		"body": "You start eating yesterday's burger.\nNot that good…\nNot that bad…\nJust not…",
+		"position": {
+			"x": 2959,
+			"y": 984
+		},
+		"colorID": 0
+	},
+	{
+		"title": "intro",
+		"tags": "",
+		"body": "28th of April 2025, late morning\nAll electrical power is offline everywhere\nWhile nothing happens\nSomething else happens,\nSeek what happens\nOr…\n\n<< set $isLastLine to true>>",
+		"position": {
+			"x": 87,
+			"y": 317
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "Lights are back on…\nBusiness as usual\nLife as usual\nBack to the start\n\n\n<< set $isPlayAgain to true>>",
+		"position": {
+			"x": 61,
+			"y": 576
 		},
 		"colorID": 0
 	}

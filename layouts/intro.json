@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690398,
+    "zoomFactor": 0.787629010167376,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -57,6 +57,56 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "start_game",
+      "persistentUuid": "c03ff60e-ee62-46f9-a3ce-f1832bf428ff",
+      "width": 1275,
+      "x": 4,
+      "y": 669,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "GUI",
+      "name": "dialogue_txt_intro",
+      "persistentUuid": "dec16244-2cab-44be-abc2-5443cfa7db89",
+      "width": 1269,
+      "x": 5,
+      "y": 370,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "GUI",
+      "name": "Filter",
+      "persistentUuid": "b0ae56b4-f82f-4ec8-8177-e43b57fb1f2b",
+      "width": 0,
+      "x": 4,
+      "y": 4,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -70,7 +120,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "nothing happens",
       "font": "",
       "textAlignment": "center",
@@ -112,7 +167,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "A GAME POEM BY PEDRO CARDOSO AND TERHI MARTTILA",
       "font": "",
       "textAlignment": "center",
@@ -143,6 +203,53 @@
         "characterSize": 20,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "start_game",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "(CLICK OR TAP ANYWHERE TO START THE GAME)",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 10,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "(CLICK OR TAP ANYWHERE TO START THE GAME)",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 10,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -153,10 +260,20 @@
       },
       {
         "objectName": "authors"
+      },
+      {
+        "objectName": "start_game"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "DialogueEvents"
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -172,54 +289,160 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "ResetTimer"
           },
           "parameters": [
-            "Title"
+            "",
+            "\"scrollText\""
           ]
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
-            "authors"
+            "\"intro\""
           ]
         },
         {
           "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
             "Title",
-            ""
+            "Opacity",
+            "=",
+            "0"
           ]
         },
         {
           "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "4"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
             "authors",
-            ""
+            "Opacity",
+            "=",
+            "0"
           ]
         },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "start_game",
+            "Opacity",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "Filter",
+            "Resizable",
+            "=",
+            "1280"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "Filter",
+            "Resizable",
+            "=",
+            "720"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Filter",
+            "=",
+            "0",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Filter",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueRunning"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+          },
+          "parameters": [
+            "\"isLastLine\"",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Wait"
@@ -230,18 +453,60 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "DialogueTree::StopRunningDialogue"
           },
-          "parameters": [
-            "Title"
-          ]
+          "parameters": []
         },
         {
           "type": {
             "value": "Cache"
           },
           "parameters": [
-            "authors"
+            "dialogue_txt_intro"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Title",
+            "Tween",
+            "\"Opacity\"",
+            "255",
+            "\"linear\"",
+            "4",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "authors",
+            "Tween",
+            "\"Opacity\"",
+            "255",
+            "\"linear\"",
+            "4",
+            ""
           ]
         },
         {
@@ -250,6 +515,161 @@
           },
           "parameters": [
             "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Title",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "6",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "authors",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Filter",
+            "Tween",
+            "\"filter_transition_toDark\"",
+            "255",
+            "\"linear\"",
+            "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Title",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "authors",
+            "Tween",
+            "\"Opacity\"",
+            "0",
+            "\"linear\"",
+            "0.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Filter",
+            "Tween",
+            "\"filter_transition_toDark\"",
+            "255",
+            "\"linear\"",
+            "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Filter",
+            "Tween",
+            "\"filter_transition_toDark\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
           ]
         },
         {
@@ -309,9 +729,46 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "GUI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
@@ -319,6 +776,14 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
+      "name": "FlashEffect",
+      "type": "Flash::FlashEffect"
     },
     {
       "name": "Flippable",
@@ -351,6 +816,10 @@
     {
       "name": "TopDownMultitouchMapper",
       "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     },
     {
       "name": "YSort",
