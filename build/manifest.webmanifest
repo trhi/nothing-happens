@@ -1,6 +1,6 @@
 {
-  "name": "Nothing happens v3",
-  "short_name": "Nothing happens v3",
+  "name": "nothing happens",
+  "short_name": "nothing happens",
   "id": "com.example.gamename",
   "description": "",
   "orientation": "landscape",
@@ -8,5 +8,8 @@
   "display": "standalone",
   "background_color": "black",
   "categories": ["games", "entertainment"],
-  "icons": []
+  "icons": [{
+        "src": "idle4.png",
+        "sizes": "512x512"
+      }]
 }

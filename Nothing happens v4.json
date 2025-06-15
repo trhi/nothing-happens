@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down-pixel",
     "version": "1.0.0",
-    "name": "Nothing happens v4",
+    "name": "nothing happens",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -632,6 +632,36 @@
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Idle4",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "IGNORE/audio/steps.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "IGNORE/audio/steps.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "IGNORE/audio/nothing-happens.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "IGNORE/audio/nothing-happens.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "IGNORE/audio/intro-outro.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "IGNORE/audio/intro-outro.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],

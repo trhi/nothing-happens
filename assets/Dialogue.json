@@ -2,7 +2,7 @@
 	{
 		"title": "nothing",
 		"tags": "",
-		"body": "Nothing happens…",
+		"body": "nothing happens…",
 		"position": {
 			"x": 790,
 			"y": 511
@@ -12,7 +12,7 @@
 	{
 		"title": "something",
 		"tags": "",
-		"body": "Something happened!!\nNew sentence.",
+		"body": "something happened!\nnew sentence",
 		"position": {
 			"x": 2100,
 			"y": 190
@@ -22,7 +22,7 @@
 	{
 		"title": "tv",
 		"tags": "",
-		"body": "Turn on the TV?\n[[answer:yes|nothing]]",
+		"body": "turn on the TV?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 800,
 			"y": 214
@@ -32,7 +32,7 @@
 	{
 		"title": "pc",
 		"tags": "",
-		"body": "Work on the PC?\n[[ answer: yes|nothing]]",
+		"body": "work on the laptop?\n[[ answer: yes|nothing]]",
 		"position": {
 			"x": 790,
 			"y": 813
@@ -42,7 +42,7 @@
 	{
 		"title": "window",
 		"tags": "",
-		"body": "You look at the window.\nThe street filled with motion.\nUnusual motion. Kids play.\nThe window looks back. \nYou look further.\nFurther away.",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2105,
 			"y": 426
@@ -52,7 +52,7 @@
 	{
 		"title": "book",
 		"tags": "",
-		"body": "You open the book.\nThe book reminds you of a once lost age,\nA time in which time was not a matter of time.\nTime stagnant,\nTime infinite,\nNever-ending,\nStill and perpetuous.",
+		"body": "you open the book\nthe book reminds you of other times\ntimes where time was not a matter of time\ntime stagnant\ntime infinite\ntime never-ending\nstill and perpetuous\nlike a book",
 		"position": {
 			"x": 2102,
 			"y": 664
@@ -62,7 +62,7 @@
 	{
 		"title": "typewriter",
 		"tags": "",
-		"body": "You start writing.\nWriting takes you deep into self-reflection\nDemons, frustrations, joy, excesses, etc. are expunged\nThrough messed up and garbled amateur writing,\nAnd it feels good.",
+		"body": "writing on the typewriter\nclickety clack\ntakes you deep into the self\ndemons, frustrations, joy\nthe complexity of life\ngarbled writing\nword upon word\nfeels good",
 		"position": {
 			"x": 2106,
 			"y": 942
@@ -72,7 +72,7 @@
 	{
 		"title": "drawing",
 		"tags": "",
-		"body": "You start drawing.\nCan’t remember when you drew last time.\nTwisted figures – lack of practice – emerge\nCome alive.\nStill drawn.",
+		"body": "can’t remember when you last drew\ntwisted figures emerge\ncome alive\nlines over lines",
 		"position": {
 			"x": 2107,
 			"y": 1231
@@ -82,7 +82,7 @@
 	{
 		"title": "bed",
 		"tags": "",
-		"body": "Sleep…\nEverything seems so quiet, \nWith the absence of blue light\nAnd electric buzzes.",
+		"body": "sleep\nwhy not?\nnot much else to do\nand it's getting dark\neverything seems so quiet \nthe absence of blue light\nno electric buzzes",
 		"position": {
 			"x": 2385,
 			"y": 187
@@ -92,7 +92,7 @@
 	{
 		"title": "couch",
 		"tags": "",
-		"body": "You rest on the couch.\nStare at the ceiling,\nA blank white canvas.",
+		"body": "ah, lovely couch\nstare at the ceiling\na blank white canvas\nthe wall\nalso blank\ncomfy couch",
 		"position": {
 			"x": 2383,
 			"y": 451
@@ -100,9 +100,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "plants",
+		"title": "plantOne",
 		"tags": "",
-		"body": "You watch the stillness of the plant.\nYou know it is moving\nBut you cannot perceive its movement\nBut you try\nAs hard as you can\nKnowing you’ll fail to see,\nFinding yourself in the middle of a conundrum\nOf your limitations to experience life.",
+		"body": "you observe the stillness of the plant\nyou know it's moving\nbut you cannot perceive the movement\nyou try\nas hard as you can\nknowing you’ll never catch it moving\nfinding yourself in a conundrum\nlimitations to perceptions of life",
 		"position": {
 			"x": 2387,
 			"y": 700
@@ -110,9 +110,39 @@
 		"colorID": 0
 	},
 	{
+		"title": "plantTwo",
+		"tags": "",
+		"body": "hello plant\nmight as well give you some water\nbeautiful green leaves\nsilent plant\nmoving\nin stillness",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantThree",
+		"tags": "",
+		"body": "potted funny friend\nflowers sprawling around\nyou begin to really notice\nthe light, reflected\nleaves stretching\ntowards the light\nhello",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantFour",
+		"tags": "",
+		"body": "leafy thing\nshade in the summer\na silent friend\nand suddenly you realize\nthat plants don't need electricity!\nthey just grab what they need\nfrom the sun",
+		"position": {
+			"x": 2387,
+			"y": 700
+		},
+		"colorID": 0
+	},			
+	{
 		"title": "meditate",
 		"tags": "",
-		"body": "You start meditating.\nEmpty your mind.\nNothing \nZip\nBlip\nNada\nNope…",
+		"body": "a rug\nwhy not meditate?\nempty your mind\nnothing\nzip\nblip\nnada\nnope…\nsilence",
 		"position": {
 			"x": 2384,
 			"y": 959
@@ -122,7 +152,7 @@
 	{
 		"title": "candles",
 		"tags": "",
-		"body": "You light the candle.\nYou hate the smell of it.\nYou know it is not healthy.\nYet you light it anyway.\nYou can’t accept the darkness.\nAccept the natural darkness.\nIt is natural to be in the dark.\nYou need to see.\nYou need light…\nEven knowing it is not good for you.",
+		"body": "you light the candle\nwhat a stinky thing\nnot healthy\nyou light it anyway\ndarkness, please no\nabsence of light\nyou need to see\nyou want light",
 		"position": {
 			"x": 2401,
 			"y": 1244
@@ -132,7 +162,7 @@
 	{
 		"title": "photos",
 		"tags": "",
-		"body": "You look at the photo.\nYou miss your darlings.\nYou cannot get in touch with them.\nYou worry about them.\nYou worry.\nIf you ever loved, \nYou worry.\nMaybe more than you love.\nYou worry.\nMaybe love is worry\nTo miss\nTo be missed\nTo worry\nTo want to be there.\nTo love.",
+		"body": "you look at the photo\nmiss your people\ncannot get in touch with them\nworry\nif you ever loved, \nyou worry\nmaybe more than you love\nyou worry\nmaybe love is worry\nto miss\nto be missed\nto worry\nto want to be together",
 		"position": {
 			"x": 2681,
 			"y": 188
@@ -142,7 +172,7 @@
 	{
 		"title": "fridge",
 		"tags": "",
-		"body": "You open the fridge.\nFood will perish.\nOne never knows when expiration dates are anticipated.\nAhead of time.",
+		"body": "you open the fridge\nfood warming\nit will go bad\nclose the door quickly",
 		"position": {
 			"x": 2694,
 			"y": 449
@@ -152,7 +182,7 @@
 	{
 		"title": "apple",
 		"tags": "",
-		"body": "You bite the apple.\nMore often\nYou should taste it’s mundane flavor\nrefreshing, hard, red, crunchy\nMundane \nMore often mundane,\nEarthly\nMundane.",
+		"body": "you bite the apple\nwhat a juicy, refreshing thing\nred and crunchy\nearthly\nmundane\napple",
 		"position": {
 			"x": 2709,
 			"y": 706
@@ -162,7 +192,7 @@
 	{
 		"title": "water",
 		"tags": "",
-		"body": "You drink a full cup of water\nWater sold as better water than other water\nAnd other bottled water, as well\nWater enveloped in plastic\nFor months\nTransported in plastic\nHeated by the sun\nWeird blob shaped plastic with water inside\nheated by the sun.",
+		"body": "you drink a cup of water\ntap water\nbut there is also other water\nwater sold as better water than other water\nand other bottled water, as well\nwater contained by plastic\ntransported in plastic\nweird blob-shaped plastic with water inside\nor tap water\nbut no water comes out of the tap",
 		"position": {
 			"x": 2716,
 			"y": 978
@@ -172,7 +202,7 @@
 	{
 		"title": "cookies",
 		"tags": "",
-		"body": "You eat cookies\nEfficient in filling the gaps of lost pleasures\nA denial of loss you don’t want to deal with\nMaybe not to many\nMaybe not for long\nJust long enough\nMaybe just innocent pleasure",
+		"body": "cookies!!!\nyummy cookies\ncomfort food\nstrange situtation\nwierd day\ncomfy cookies\nguilty pleasure",
 		"position": {
 			"x": 2739,
 			"y": 1228
@@ -182,7 +212,7 @@
 	{
 		"title": "game console",
 		"tags": "",
-		"body": "Play a videogame?\n[[answer:yes|nothing]]",
+		"body": "play a videogame?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 1169,
 			"y": 229
@@ -192,7 +222,7 @@
 	{
 		"title": "stove",
 		"tags": "",
-		"body": "Cook something?\n[[answer:yes|nothing]]",
+		"body": "cook something?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 1168,
 			"y": 517
@@ -202,7 +232,7 @@
 	{
 		"title": "phone",
 		"tags": "",
-		"body": "Call your beloved ones?\n[[answer:yes|nothing]]",
+		"body": "call somebody?\nno network...\nbattery level 16%",
 		"position": {
 			"x": 1142,
 			"y": 794
@@ -212,7 +242,7 @@
 	{
 		"title": "washing",
 		"tags": "",
-		"body": "Wash some clothes?\n[[answer:yes|nothing]]",
+		"body": "wash some clothes?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 1137,
 			"y": 1060
@@ -220,15 +250,25 @@
 		"colorID": 0
 	},
 	{
-		"title": "water",
+		"title": "toilet",
 		"tags": "",
-		"body": "Wash?\n[[answer:yes|nothing]]",
+		"body": "use toilet?\nbut the flush doesn't work..\nsure you want to put up with the stinky contents?\nbetter get a bucket?",
 		"position": {
 			"x": 830,
 			"y": 1097
 		},
 		"colorID": 0
 	},
+	{
+		"title": "sink",
+		"tags": "",
+		"body": "use tap?\nno water",
+		"position": {
+			"x": 830,
+			"y": 1097
+		},
+		"colorID": 0
+	},	
 	{
 		"title": "lights",
 		"tags": "",
@@ -242,7 +282,7 @@
 	{
 		"title": "stereo",
 		"tags": "",
-		"body": "Listen to some music?\n[[answer:yes|nothing]]",
+		"body": "listen to the radio?\na battery operated radio!\nit crackles into life\nexplains the blackout\nkeep it playing\nall day\nin touch with the outside world\nthings will be okay",
 		"position": {
 			"x": 435,
 			"y": 780
@@ -252,7 +292,7 @@
 	{
 		"title": "clock",
 		"tags": "",
-		"body": "What a time!\nWhat time…\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nfinite and never-ending…",
+		"body": "the time of our lives\nwhat's the time?\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nt     i     m     e\nt      i      m      e\nt     i     m     e\nt    i    m    e\nt   i   m   e\nt  i  m  e\nt i m e\ntime\nfinite and never-ending\ntime",
 		"position": {
 			"x": 2998,
 			"y": 194
@@ -262,7 +302,7 @@
 	{
 		"title": "microwave",
 		"tags": "",
-		"body": "Warm some food in the microwave?\n[[answer:yes|nothing]]",
+		"body": "warm up some food in the microwave?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 406,
 			"y": 488
@@ -272,7 +312,7 @@
 	{
 		"title": "heater",
 		"tags": "",
-		"body": "Turn the heater on?\n[[answer:yes|nothing]]",
+		"body": "turn on the heater?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 364,
 			"y": 246
@@ -282,7 +322,7 @@
 	{
 		"title": "leave",
 		"tags": "",
-		"body": "You never bothered to learn how to manually bypass the electronic lock…\n[[answer:yes|nothing]]",
+		"body": "use the elevator?\n[[answer:yes|nothing]]",
 		"position": {
 			"x": 470,
 			"y": -36
@@ -292,7 +332,7 @@
 	{
 		"title": "newspaper",
 		"tags": "",
-		"body": "You start reading the newspaper.\nHorrible, disgusting, everywhere.\nYou put it down…",
+		"body": "you open yesterday's newspaper\nhorrible, disgusting, terrible, everywhere\nblah\nput it down",
 		"position": {
 			"x": 2968,
 			"y": 702
@@ -302,7 +342,7 @@
 	{
 		"title": "burger",
 		"tags": "",
-		"body": "You start eating yesterday's burger.\nNot that good…\nNot that bad…\nJust not…",
+		"body": "you take a bite of the burger\nout since yesterday\nnot that good…\nnot bad either…",
 		"position": {
 			"x": 2959,
 			"y": 984
@@ -312,7 +352,7 @@
 	{
 		"title": "intro",
 		"tags": "",
-		"body": "28th of April 2025, late morning\nAll electrical power is offline everywhere\nWhile nothing happens\nSomething else happens,\nSeek what happens\nOr…\n\n<< set $isLastLine to true>>",
+		"body": "28th of April 2025, late morning\nall electrical power is out, everywhere\nwhile nothing happens\nsomething else happens,\nseek what happens\nor…\n\n<< set $isLastLine to true>>",
 		"position": {
 			"x": 87,
 			"y": 317
@@ -322,7 +362,7 @@
 	{
 		"title": "end",
 		"tags": "",
-		"body": "Lights are back on…\nBusiness as usual\nLife as usual\nBack to the start\n\n\n<< set $isPlayAgain to true>>",
+		"body": "lights are back!!!\nbusiness as usual?\nlife as usual?\nor did something change?\nwhat is your first move?\n\n<< set $isPlayAgain to true>>",
 		"position": {
 			"x": 61,
 			"y": 576
