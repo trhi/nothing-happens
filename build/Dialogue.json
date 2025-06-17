@@ -40,11 +40,81 @@
 		"colorID": 0
 	},
 	{
-		"title": "window",
+		"title": "window0",
 		"tags": "",
 		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
-			"x": 2105,
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window1",
+		"tags": "",
+		"body": "quiet side of your home\nnot much going on out here\njust a blackbird\nlooking for food\nmaking a mess\nsilence",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window2",
+		"tags": "",
+		"body": "didn't you just look out the window?\nthis must be like the nth time..\nnot much to look at inside\nhoping there is something to see outside",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window3",
+		"tags": "",
+		"body": "you look out the window\nbut you are not alone\nso many others\npeeking out to see\nothers\nhoping to see something interesting\nsomething to spark interest\nboredom\nbecause inside\nnothing happens",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window4",
+		"tags": "",
+		"body": "just mulling over life\nat the window\nso much more going on out there than in here\nalmost like watching television\nexcept people don't need electricity\nto move their bodies\nobserving people\ndoing peopley things",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window5",
+		"tags": "",
+		"body": "back at the window\nperhaps the most entertaining place at home\nyou wonder why you don't always gaze out like this?\nso relaxing",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window6",
+		"tags": "",
+		"body": "the park in front, brimming with people\nkids\ndogs\npeople stretched out on the grass\nwhy doesn't anybody normally just hang out like that?\nfriends sitting with friends\nstrangers talking to strangers\nnobody on their phone\n(because phone is useless right now)\nso close, a tiny little city haven",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window7",
+		"tags": "",
+		"body": "leaves\ngently swaying in the wind outside\nsun shining\nsun doesn't need electricity to shine\nplants don't need electricity!\nso green\nwish my body could eat sun\ngreen skin",
+		"position": {
+			"x": 2103,
 			"y": 426
 		},
 		"colorID": 0
@@ -72,7 +142,7 @@
 	{
 		"title": "drawing",
 		"tags": "",
-		"body": "can’t remember when you last drew\ntwisted figures emerge\ncome alive\nlines over lines",
+		"body": "can’t remember when you last drew\ntwisted figures emerge\ncome alive\nlines\nshapes\nwhat is this stuff?\ncoming out of your mind..",
 		"position": {
 			"x": 2107,
 			"y": 1231
@@ -138,7 +208,7 @@
 			"y": 700
 		},
 		"colorID": 0
-	},			
+	},
 	{
 		"title": "meditate",
 		"tags": "",
@@ -160,9 +230,29 @@
 		"colorID": 0
 	},
 	{
-		"title": "photos",
+		"title": "photoOne",
 		"tags": "",
 		"body": "you look at the photo\nmiss your people\ncannot get in touch with them\nworry\nif you ever loved, \nyou worry\nmaybe more than you love\nyou worry\nmaybe love is worry\nto miss\nto be missed\nto worry\nto want to be together",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoTwo",
+		"tags": "",
+		"body": "the place you go on holidays\nevery year\nthe same place\nwonder if there is enough fuel in the tank\nto drive all the way over there\nmust be chaos at the gas station\nprobably a lot of people trying to pump gas\nlucky you don't really need the car today\ndo gas pumps even work without electricity??\ntoo bad you can't walk all the way over there",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoThree",
+		"tags": "",
+		"body": "your parent\nalready quite old\nmust be rather distraught\nfar away\nwishing you could call\nhope they are okay\njust tell them you are okay\nwonder if they need anything\nwonder what they are up to",
 		"position": {
 			"x": 2681,
 			"y": 188
@@ -192,7 +282,7 @@
 	{
 		"title": "water",
 		"tags": "",
-		"body": "you drink a cup of water\ntap water\nbut there is also other water\nwater sold as better water than other water\nand other bottled water, as well\nwater contained by plastic\ntransported in plastic\nweird blob-shaped plastic with water inside\nor tap water\nbut no water comes out of the tap",
+		"body": "you drink a cup of water\ntap water\nbut there is also other water\nwater sold as better water than other water\nand other bottled water, as well\nwater contained by plastic\ntransported in plastic\nweird blob-shaped plastic with water inside\nor tap water\nbut no water comes out of the tap\npeople rush to buy water\bottled water",
 		"position": {
 			"x": 2716,
 			"y": 978
@@ -268,7 +358,7 @@
 			"y": 1097
 		},
 		"colorID": 0
-	},	
+	},
 	{
 		"title": "lights",
 		"tags": "",
@@ -292,7 +382,7 @@
 	{
 		"title": "clock",
 		"tags": "",
-		"body": "the time of our lives\nwhat's the time?\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nt     i     m     e\nt      i      m      e\nt     i     m     e\nt    i    m    e\nt   i   m   e\nt  i  m  e\nt i m e\ntime\nfinite and never-ending\ntime",
+		"body": "a battery operated wall clock!\nwhat's the time?\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nt     i     m     e\nt      i      m      e\nt     i     m     e\nt    i    m    e\nt   i   m   e\nt  i  m  e\nt i m e\ntime\nfinite and never-ending\ntime",
 		"position": {
 			"x": 2998,
 			"y": 194
@@ -362,10 +452,50 @@
 	{
 		"title": "end",
 		"tags": "",
-		"body": "lights are back!!!\nbusiness as usual?\nlife as usual?\nor did something change?\nwhat is your first move?\n\n<< set $isPlayAgain to true>>",
+		"body": "lights are back!!!\nbusiness as usual?\nlife as usual?\nor did something change?\nwhat do you want to do now?\nwhat is your first move?\n\n<< set $isPlayAgain to true>>",
 		"position": {
 			"x": 61,
 			"y": 576
+		},
+		"colorID": 0
+	},
+	{
+		"title": "right",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2223,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "left",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2443,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "up",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2663,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "down",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2883,
+			"y": 206
 		},
 		"colorID": 0
 	}
