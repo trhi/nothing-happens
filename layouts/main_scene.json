@@ -317,6 +317,54 @@
       "name": "Playable_Character",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "windowBranches",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "window0"
+        },
+        {
+          "type": "string",
+          "value": "window1"
+        },
+        {
+          "type": "string",
+          "value": "window2"
+        },
+        {
+          "type": "string",
+          "value": "window3"
+        },
+        {
+          "type": "string",
+          "value": "window4"
+        },
+        {
+          "type": "string",
+          "value": "window5"
+        },
+        {
+          "type": "string",
+          "value": "window6"
+        },
+        {
+          "type": "string",
+          "value": "window7"
+        }
+      ]
+    },
+    {
+      "name": "chosenBranch",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "randomIndex",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -7022,6 +7070,39 @@
           "conditions": [
             {
               "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "Playable_Character",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "30",
+                "0.6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "TopDownMovementBehavior::IsMoving"
               },
@@ -7168,39 +7249,6 @@
                     "no"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "Playable_Character",
-                "TopDownMovement"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FadeMusicVolume"
-              },
-              "parameters": [
-                "",
-                "1",
-                "30",
-                "0.6"
               ]
             }
           ]
@@ -7821,10 +7869,224 @@
               "actions": [
                 {
                   "type": {
-                    "value": "DialogueTree::StartDialogueFromBranch"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "\"window\""
+                    "randomIndex",
+                    "=",
+                    "RandomInRange(0,7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "chosenBranch",
+                    "=",
+                    "VariableString(windowBranches[Variable(randomIndex)])"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window0\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window0\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window1\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window1\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window2\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window2\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window3\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window3\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window4\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window4\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window5\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window5\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window6\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window6\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "chosenBranch",
+                        "=",
+                        "\"window7\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::StartDialogueFromBranch"
+                      },
+                      "parameters": [
+                        "\"window7\""
+                      ]
+                    }
                   ]
                 }
               ]

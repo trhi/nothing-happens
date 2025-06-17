@@ -40,7 +40,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "window",
+		"title": "window0",
 		"tags": "",
 		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
@@ -52,7 +52,7 @@
 	{
 		"title": "window1",
 		"tags": "",
-		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"body": "window1\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2103,
 			"y": 426
@@ -62,7 +62,7 @@
 	{
 		"title": "window2",
 		"tags": "",
-		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"body": "window2\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2103,
 			"y": 426
@@ -72,7 +72,7 @@
 	{
 		"title": "window3",
 		"tags": "",
-		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"body": "window3\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2103,
 			"y": 426
@@ -82,7 +82,7 @@
 	{
 		"title": "window4",
 		"tags": "",
-		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"body": "window4\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2103,
 			"y": 426
@@ -92,7 +92,7 @@
 	{
 		"title": "window5",
 		"tags": "",
-		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"body": "window5\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2103,
 			"y": 426
@@ -102,7 +102,17 @@
 	{
 		"title": "window6",
 		"tags": "",
-		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"body": "window6\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window7",
+		"tags": "",
+		"body": "window7\nyou look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
 			"x": 2103,
 			"y": 426
