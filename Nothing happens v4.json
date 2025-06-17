@@ -663,6 +663,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/steps.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/steps.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nothing-happens.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/nothing-happens.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/intro-outro.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/intro-outro.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

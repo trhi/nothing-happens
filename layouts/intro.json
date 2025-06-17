@@ -465,7 +465,7 @@
           },
           "parameters": [
             "",
-            "IGNORE/audio/intro-outro.mp3"
+            "assets/intro-outro.mp3"
           ]
         },
         {
@@ -474,7 +474,7 @@
           },
           "parameters": [
             "",
-            "IGNORE/audio/intro-outro.mp3",
+            "assets/intro-outro.mp3",
             "2",
             "yes",
             "30",

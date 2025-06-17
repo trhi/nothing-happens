@@ -6115,7 +6115,7 @@
               },
               "parameters": [
                 "",
-                "IGNORE/audio/steps.mp3"
+                "assets/steps.mp3"
               ]
             },
             {
@@ -6124,7 +6124,7 @@
               },
               "parameters": [
                 "",
-                "IGNORE/audio/steps.mp3",
+                "assets/steps.mp3",
                 "1",
                 "yes",
                 "0",
@@ -6137,7 +6137,7 @@
               },
               "parameters": [
                 "",
-                "IGNORE/audio/nothing-happens.mp3"
+                "assets/nothing-happens.mp3"
               ]
             },
             {
@@ -6157,7 +6157,7 @@
               },
               "parameters": [
                 "",
-                "IGNORE/audio/nothing-happens.mp3",
+                "assets/nothing-happens.mp3",
                 "2",
                 "yes",
                 "30",
@@ -6516,7 +6516,7 @@
               },
               "parameters": [
                 "",
-                "IGNORE/audio/intro-outro.mp3"
+                "assets/intro-outro.mp3"
               ]
             },
             {
@@ -6525,7 +6525,7 @@
               },
               "parameters": [
                 "",
-                "IGNORE/audio/intro-outro.mp3",
+                "assets/intro-outro.mp3",
                 "3",
                 "yes",
                 "30",
@@ -8392,46 +8392,14 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "CollisionNP"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Playable_Character",
-                        "photo_1",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Playable_Character",
-                        "photo_2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Playable_Character",
-                        "photo_4",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "Playable_Character",
+                    "photo_1",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
@@ -8441,7 +8409,61 @@
                     "value": "DialogueTree::StartDialogueFromBranch"
                   },
                   "parameters": [
-                    "\"photos\""
+                    "\"photoOne\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Playable_Character",
+                    "photo_2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"photoTwo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Playable_Character",
+                    "photo_4",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"photoThree\""
                   ]
                 }
               ]

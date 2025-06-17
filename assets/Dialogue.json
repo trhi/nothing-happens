@@ -44,7 +44,67 @@
 		"tags": "",
 		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
 		"position": {
-			"x": 2105,
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window1",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window2",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window3",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window4",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window5",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "window6",
+		"tags": "",
+		"body": "you look out the window\nstreet filled with motion\npeople gathered here and there\nyou observe\nunusual motion\nkids play\npeople talking in small groups\nthe window looks back\nyou look out",
+		"position": {
+			"x": 2103,
 			"y": 426
 		},
 		"colorID": 0
@@ -138,7 +198,7 @@
 			"y": 700
 		},
 		"colorID": 0
-	},			
+	},
 	{
 		"title": "meditate",
 		"tags": "",
@@ -160,9 +220,29 @@
 		"colorID": 0
 	},
 	{
-		"title": "photos",
+		"title": "photoOne",
 		"tags": "",
 		"body": "you look at the photo\nmiss your people\ncannot get in touch with them\nworry\nif you ever loved, \nyou worry\nmaybe more than you love\nyou worry\nmaybe love is worry\nto miss\nto be missed\nto worry\nto want to be together",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoTwo",
+		"tags": "",
+		"body": "the place you go on holidays\nevery year\nthe same place\nwonder if there is enough fuel in the tank\nto drive all the way over there\nmust be quite a mess at the gas station\nprobably a lot of people trying to pump gas\nlucky you don't really need the car today\ndo gas pumps even work without electricity??\ntoo bad you can't walk all the way over there",
+		"position": {
+			"x": 2681,
+			"y": 188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "photoThree",
+		"tags": "",
+		"body": "your parent\nalready quite old\nmust be rather distraught\nfar away\nwishing you could call\nhope they are okay\njust tell them you are okay\nwonder if they need anything\nwonder what they are up to",
 		"position": {
 			"x": 2681,
 			"y": 188
@@ -268,7 +348,7 @@
 			"y": 1097
 		},
 		"colorID": 0
-	},	
+	},
 	{
 		"title": "lights",
 		"tags": "",
@@ -292,7 +372,7 @@
 	{
 		"title": "clock",
 		"tags": "",
-		"body": "the time of our lives\nwhat's the time?\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nt     i     m     e\nt      i      m      e\nt     i     m     e\nt    i    m    e\nt   i   m   e\nt  i  m  e\nt i m e\ntime\nfinite and never-ending\ntime",
+		"body": "a battery operated wall clock!\nwhat's the time?\ntime\nt i m e\nt  i  m  e\nt   i   m   e\nt    i    m    e\nt     i     m     e\nt      i      m      e\nt     i     m     e\nt    i    m    e\nt   i   m   e\nt  i  m  e\nt i m e\ntime\nfinite and never-ending\ntime",
 		"position": {
 			"x": 2998,
 			"y": 194
@@ -366,6 +446,46 @@
 		"position": {
 			"x": 61,
 			"y": 576
+		},
+		"colorID": 0
+	},
+	{
+		"title": "right",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2223,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "left",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2443,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "up",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2663,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "down",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2883,
+			"y": 206
 		},
 		"colorID": 0
 	}
