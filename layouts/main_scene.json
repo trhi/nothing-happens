@@ -6726,7 +6726,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "4"
               ]
             },
             {
@@ -7070,11 +7070,35 @@
           "conditions": [
             {
               "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Playable_Character",
-                "TopDownMovement"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Playable_Character",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SystemInfo::HasTouchScreen"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
               ]
             },
             {
