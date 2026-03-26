@@ -1375,62 +1375,29 @@ if (isConditionTrue_0) {
 
 gdjs.copyArray(runtimeScene.getObjects("Playable_Character"), gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2);
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_1 = false;
-for (var i = 0, k = 0, l = gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2.length;i<l;++i) {
-    if ( gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[i].getBehavior("TopDownMovement").isMoving() ) {
-        isConditionTrue_1 = true;
-        gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[k] = gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[i];
-        ++k;
-    }
-}
-gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2.length = k;
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = !(gdjs.evtTools.systemInfo.isMobile());
-if (isConditionTrue_1) {
-isConditionTrue_1 = false;
-isConditionTrue_1 = !(gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene));
-}
-}
-isConditionTrue_0 = isConditionTrue_1;
-}
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14746708);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 30, 0.6);
-}
-}
-
-}
-
-
 {
-
-gdjs.copyArray(runtimeScene.getObjects("Playable_Character"), gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2.length;i<l;++i) {
-    if ( !(gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[i].getBehavior("TopDownMovement").isMoving()) ) {
-        isConditionTrue_0 = true;
-        gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[k] = gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[i];
-        ++k;
+const sceneVariables = runtimeScene.getScene().getVariables();
+const footstepsPrevX = sceneVariables.get("_footstepsPrevX");
+const footstepsPrevY = sceneVariables.get("_footstepsPrevY");
+const footstepsInitialized = sceneVariables.get("_footstepsInitialized");
+const footstepsWasMoving = sceneVariables.get("_footstepsWasMoving");
+if (gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2.length > 0) {
+    const player = gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[0];
+    if (footstepsInitialized.getAsNumber() === 0) {
+        footstepsPrevX.setNumber(player.getX());
+        footstepsPrevY.setNumber(player.getY());
+        footstepsInitialized.setNumber(1);
     }
-}
-gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14747996);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 0, 0.5);
+    const movedThisFrame = (Math.abs(player.getX() - footstepsPrevX.getAsNumber()) + Math.abs(player.getY() - footstepsPrevY.getAsNumber())) > 0.05;
+    if (movedThisFrame && footstepsWasMoving.getAsNumber() === 0) {
+        gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 30, 0.6);
+    }
+    if (!(movedThisFrame) && footstepsWasMoving.getAsNumber() === 1) {
+        gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
+    }
+    footstepsWasMoving.setNumber(movedThisFrame ? 1 : 0);
+    footstepsPrevX.setNumber(player.getX());
+    footstepsPrevY.setNumber(player.getY());
 }
 }
 
