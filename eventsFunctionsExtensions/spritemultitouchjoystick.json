@@ -3778,7 +3778,7 @@
               "ControllerIdentifier": 1,
               "JoystickIdentifier": "Primary",
               "FloatingEnabled": false,
-              "DeadZoneRadius": 0.4,
+              "DeadZoneRadius": 0.6,
               "JoystickAngle": 0,
               "JoystickForce": 0,
               "TouchId": 0,
