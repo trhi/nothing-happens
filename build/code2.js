@@ -380,9 +380,7 @@ gdjs.copyArray(runtimeScene.getObjects("Light"), gdjs.main_95sceneCode.GDLightOb
 gdjs.copyArray(runtimeScene.getObjects("dialogue_background"), gdjs.main_95sceneCode.GDdialogue_9595backgroundObjects2);
 gdjs.copyArray(runtimeScene.getObjects("dialogue_txt"), gdjs.main_95sceneCode.GDdialogue_9595txtObjects2);
 gdjs.copyArray(runtimeScene.getObjects("instructions"), gdjs.main_95sceneCode.GDinstructionsObjects2);
-{gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets/steps.mp3");
-}
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/steps.mp3", 1, true, 0, 1);
+{gdjs.evtTools.sound.preloadSound(runtimeScene, "assets/steps.mp3");
 }
 {gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets/nothing-happens.mp3");
 }
@@ -1381,19 +1379,33 @@ const footstepsPrevX = sceneVariables.get("_footstepsPrevX");
 const footstepsPrevY = sceneVariables.get("_footstepsPrevY");
 const footstepsInitialized = sceneVariables.get("_footstepsInitialized");
 const footstepsWasMoving = sceneVariables.get("_footstepsWasMoving");
+const useMobileFootsteps = gdjs.evtTools.systemInfo.isMobile() || gdjs.evtTools.systemInfo.hasTouchScreen(runtimeScene);
 if (gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2.length > 0) {
     const player = gdjs.main_95sceneCode.GDPlayable_9595CharacterObjects2[0];
     if (footstepsInitialized.getAsNumber() === 0) {
         footstepsPrevX.setNumber(player.getX());
         footstepsPrevY.setNumber(player.getY());
         footstepsInitialized.setNumber(1);
+        if (useMobileFootsteps) {
+            gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
+        } else {
+            gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/steps.mp3", 1, true, 0, 1);
+        }
     }
     const movedThisFrame = (Math.abs(player.getX() - footstepsPrevX.getAsNumber()) + Math.abs(player.getY() - footstepsPrevY.getAsNumber())) > 0.05;
     if (movedThisFrame && footstepsWasMoving.getAsNumber() === 0) {
-        gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 30, 0.6);
+        if (useMobileFootsteps) {
+            gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/steps.mp3", 1, true, 30, 1);
+        } else {
+            gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 30, 0.6);
+        }
     }
     if (!(movedThisFrame) && footstepsWasMoving.getAsNumber() === 1) {
-        gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
+        if (useMobileFootsteps) {
+            gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
+        } else {
+            gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
+        }
     }
     footstepsWasMoving.setNumber(movedThisFrame ? 1 : 0);
     footstepsPrevX.setNumber(player.getX());
