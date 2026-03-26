@@ -380,9 +380,9 @@ gdjs.copyArray(runtimeScene.getObjects("Light"), gdjs.main_95sceneCode.GDLightOb
 gdjs.copyArray(runtimeScene.getObjects("dialogue_background"), gdjs.main_95sceneCode.GDdialogue_9595backgroundObjects2);
 gdjs.copyArray(runtimeScene.getObjects("dialogue_txt"), gdjs.main_95sceneCode.GDdialogue_9595txtObjects2);
 gdjs.copyArray(runtimeScene.getObjects("instructions"), gdjs.main_95sceneCode.GDinstructionsObjects2);
-{gdjs.evtTools.sound.preloadSound(runtimeScene, "assets/steps.mp3");
+{gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets/steps.mp3");
 }
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/steps.mp3", 1, true, 0, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/steps.mp3", 1, true, 0, 1);
 }
 {gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets/nothing-happens.mp3");
 }
@@ -1403,7 +1403,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 30, 0.6);
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 30, 0.6);
 }
 }
 
@@ -1430,7 +1430,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 0, 0.5);
 }
 }
 
