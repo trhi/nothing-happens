@@ -23,16 +23,16 @@ gdjs.evtsExt__SpriteMultitouchJoystick__TopDownMultitouchMapper.TopDownMultitouc
   }
 
   // Hot-reload:
-  updateFromBehaviorData(oldBehaviorData, newBehaviorData) {
+  applyBehaviorOverriding(behaviorOverriding) {
     
-    if (oldBehaviorData.TopDownMovement !== newBehaviorData.TopDownMovement)
-      this._behaviorData.TopDownMovement = newBehaviorData.TopDownMovement;
-    if (oldBehaviorData.ControllerIdentifier !== newBehaviorData.ControllerIdentifier)
-      this._behaviorData.ControllerIdentifier = newBehaviorData.ControllerIdentifier;
-    if (oldBehaviorData.JoystickIdentifier !== newBehaviorData.JoystickIdentifier)
-      this._behaviorData.JoystickIdentifier = newBehaviorData.JoystickIdentifier;
-    if (oldBehaviorData.StickMode !== newBehaviorData.StickMode)
-      this._behaviorData.StickMode = newBehaviorData.StickMode;
+    if (behaviorOverriding.TopDownMovement !== undefined)
+      this._behaviorData.TopDownMovement = behaviorOverriding.TopDownMovement;
+    if (behaviorOverriding.ControllerIdentifier !== undefined)
+      this._behaviorData.ControllerIdentifier = behaviorOverriding.ControllerIdentifier;
+    if (behaviorOverriding.JoystickIdentifier !== undefined)
+      this._behaviorData.JoystickIdentifier = behaviorOverriding.JoystickIdentifier;
+    if (behaviorOverriding.StickMode !== undefined)
+      this._behaviorData.StickMode = behaviorOverriding.StickMode;
 
     return true;
   }

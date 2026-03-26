@@ -5,8 +5,8 @@ gdjs.evtsExt__Message_box__Message_box = gdjs.evtsExt__Message_box__Message_box 
  * Object generated from 
  */
 gdjs.evtsExt__Message_box__Message_box.Message_box = class Message_box extends gdjs.CustomRuntimeObject2D {
-  constructor(parentInstanceContainer, objectData) {
-    super(parentInstanceContainer, objectData);
+  constructor(parentInstanceContainer, objectData, instanceData) {
+    super(parentInstanceContainer, objectData, instanceData);
     this._parentInstanceContainer = parentInstanceContainer;
 
     this._onceTriggers = new gdjs.OnceTriggers();

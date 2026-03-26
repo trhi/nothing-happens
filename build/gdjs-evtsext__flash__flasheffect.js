@@ -24,18 +24,18 @@ gdjs.evtsExt__Flash__FlashEffect.FlashEffect = class FlashEffect extends gdjs.Ru
   }
 
   // Hot-reload:
-  updateFromBehaviorData(oldBehaviorData, newBehaviorData) {
+  applyBehaviorOverriding(behaviorOverriding) {
     
-    if (oldBehaviorData.Effect !== newBehaviorData.Effect)
-      this._behaviorData.Effect = newBehaviorData.Effect;
-    if (oldBehaviorData.HalfPeriodTime !== newBehaviorData.HalfPeriodTime)
-      this._behaviorData.HalfPeriodTime = newBehaviorData.HalfPeriodTime;
-    if (oldBehaviorData.IsFlashing !== newBehaviorData.IsFlashing)
-      this._behaviorData.IsFlashing = newBehaviorData.IsFlashing;
-    if (oldBehaviorData.FlashDuration !== newBehaviorData.FlashDuration)
-      this._behaviorData.FlashDuration = newBehaviorData.FlashDuration;
-    if (oldBehaviorData.EffectName !== newBehaviorData.EffectName)
-      this._behaviorData.EffectName = newBehaviorData.EffectName;
+    if (behaviorOverriding.Effect !== undefined)
+      this._behaviorData.Effect = behaviorOverriding.Effect;
+    if (behaviorOverriding.HalfPeriodTime !== undefined)
+      this._behaviorData.HalfPeriodTime = behaviorOverriding.HalfPeriodTime;
+    if (behaviorOverriding.IsFlashing !== undefined)
+      this._behaviorData.IsFlashing = behaviorOverriding.IsFlashing;
+    if (behaviorOverriding.FlashDuration !== undefined)
+      this._behaviorData.FlashDuration = behaviorOverriding.FlashDuration;
+    if (behaviorOverriding.EffectName !== undefined)
+      this._behaviorData.EffectName = behaviorOverriding.EffectName;
 
     return true;
   }
@@ -405,13 +405,6 @@ let isConditionTrue_0 = false;
 
 
 };gdjs.evtsExt__Flash__FlashEffect.FlashEffect.prototype.FlashContext.eventsList1 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
-
-
-}
-
 
 {
 

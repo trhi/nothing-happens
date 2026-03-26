@@ -19,7 +19,7 @@ gdjs.evtsExt__YSort__YSort.YSort = class YSort extends gdjs.RuntimeBehavior {
   }
 
   // Hot-reload:
-  updateFromBehaviorData(oldBehaviorData, newBehaviorData) {
+  applyBehaviorOverriding(behaviorOverriding) {
     
 
     return true;
@@ -75,13 +75,6 @@ gdjs.evtsExt__YSort__YSort.YSort.prototype.doStepPostEventsContext.GDObjectObjec
 
 
 gdjs.evtsExt__YSort__YSort.YSort.prototype.doStepPostEventsContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
-
-{
-
-
-
-}
-
 
 {
 
