@@ -2452,18 +2452,12 @@
           "value": "1",
           "type": "Number",
           "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "String",
           "label": "Joystick name",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "JoystickIdentifier"
         },
         {
@@ -2471,17 +2465,12 @@
           "type": "Number",
           "label": "Dead zone radius (range: 0 to 1)",
           "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
-          "group": "",
-          "extraInformation": [],
           "name": "DeadZoneRadius"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Joystick angle (range: -180 to 180)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "JoystickAngle"
         },
@@ -2489,9 +2478,6 @@
           "value": "0",
           "type": "Number",
           "label": "Joystick force (range: 0 to 1)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "JoystickForce"
         },
@@ -2499,9 +2485,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -2509,9 +2492,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIndex"
         }
@@ -2894,27 +2874,18 @@
           "value": "1",
           "type": "Number",
           "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "A",
           "type": "String",
           "label": "Button identifier",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ButtonIdentifier"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "TouchID",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -2922,9 +2893,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIndex"
         },
@@ -2932,9 +2900,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Button released",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsReleased"
         }
@@ -3123,31 +3088,32 @@
           "value": "",
           "type": "Behavior",
           "label": "Platform character behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
+          "choices": [],
           "name": "Property"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -3155,9 +3121,7 @@
           "value": "A",
           "type": "String",
           "label": "Jump button name",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [],
           "name": "JumpButton"
         }
       ],
@@ -3681,31 +3645,31 @@
           "value": "",
           "type": "Behavior",
           "label": "Top-down movement behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "TopDownMovementBehavior::TopDownMovementBehavior"
           ],
+          "choices": [],
           "name": "TopDownMovement"
         },
         {
           "value": "1",
           "type": "Number",
           "label": "Controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "description": "",
-          "group": "",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -3713,12 +3677,20 @@
           "value": "Analog",
           "type": "Choice",
           "label": "Stick mode",
-          "description": "",
           "group": "Controls",
-          "extraInformation": [
-            "Analog",
-            "360°",
-            "8 Directions"
+          "choices": [
+            {
+              "label": "Analog",
+              "value": "Analog"
+            },
+            {
+              "label": "360°",
+              "value": "360°"
+            },
+            {
+              "label": "8 Directions",
+              "value": "8 Directions"
+            }
           ],
           "name": "StickMode"
         }
@@ -3778,7 +3750,7 @@
               "ControllerIdentifier": 1,
               "JoystickIdentifier": "Primary",
               "FloatingEnabled": false,
-              "DeadZoneRadius": 0.6,
+              "DeadZoneRadius": 0.4,
               "JoystickAngle": 0,
               "JoystickForce": 0,
               "TouchId": 0,
@@ -3817,6 +3789,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -3843,6 +3816,7 @@
         }
       ],
       "instances": [],
+      "editionSettings": {},
       "eventsFunctions": [
         {
           "fullName": "",
@@ -4731,20 +4705,21 @@
           "value": "1",
           "type": "Number",
           "label": "Multitouch controller identifier (1, 2, 3, 4...)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "ControllerIdentifier"
         },
         {
           "value": "Primary",
           "type": "Choice",
           "label": "Joystick name",
-          "description": "",
-          "group": "",
-          "extraInformation": [
-            "Primary",
-            "Secondary"
+          "choices": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
           ],
           "name": "JoystickIdentifier"
         },
@@ -4753,8 +4728,6 @@
           "type": "Number",
           "label": "Dead zone radius (range: 0 to 1)",
           "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
-          "group": "",
-          "extraInformation": [],
           "name": "DeadZoneRadius"
         },
         {
@@ -4762,10 +4735,10 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Thumb"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ThumbAnchorOrigin"
         },
@@ -4774,8 +4747,6 @@
           "type": "Number",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ThumbAnchorTarget"
         },
@@ -4784,10 +4755,10 @@
           "type": "Boolean",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
           "extraInformation": [
             "Thumb"
           ],
+          "choices": [],
           "hidden": true,
           "name": "ThumbIsScaledProportionally"
         },
@@ -4796,8 +4767,6 @@
           "type": "String",
           "label": "",
           "description": "Only used by the scene editor.",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ParentOrigin"
         }

@@ -1118,8 +1118,6 @@
           "type": "Boolean",
           "label": "",
           "description": "Should check hovering",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ShouldCheckHovering"
         },
@@ -1127,14 +1125,27 @@
           "value": "Idle",
           "type": "Choice",
           "label": "State",
-          "description": "",
-          "group": "",
-          "extraInformation": [
-            "Idle",
-            "Hovered",
-            "PressedInside",
-            "PressedOutside",
-            "Validated"
+          "choices": [
+            {
+              "label": "Idle",
+              "value": "Idle"
+            },
+            {
+              "label": "Hovered",
+              "value": "Hovered"
+            },
+            {
+              "label": "PressedInside",
+              "value": "PressedInside"
+            },
+            {
+              "label": "PressedOutside",
+              "value": "PressedOutside"
+            },
+            {
+              "label": "Validated",
+              "value": "Validated"
+            }
           ],
           "hidden": true,
           "name": "State"
@@ -1143,9 +1154,6 @@
           "value": "0",
           "type": "Number",
           "label": "Touch id",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchId"
         },
@@ -1153,9 +1161,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Touch is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "TouchIsInside"
         },
@@ -1163,9 +1168,6 @@
           "value": "",
           "type": "Boolean",
           "label": "Mouse is inside",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MouseIsInside"
         },
@@ -1173,9 +1175,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         }
@@ -1236,6 +1235,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -1329,6 +1329,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -1355,6 +1356,7 @@
         }
       ],
       "instances": [],
+      "editionSettings": {},
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2668,62 +2670,56 @@
           "value": "0",
           "type": "Number",
           "label": "Label offset on Y axis when pressed",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "PressedLabelOffsetY"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Left padding",
-          "description": "",
           "group": "Padding",
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "LeftPadding"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Right padding",
-          "description": "",
           "group": "Padding",
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "RightPadding"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Top padding",
-          "description": "",
           "group": "Padding",
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "TopPadding"
         },
         {
           "value": "0",
           "type": "Number",
           "label": "Bottom padding",
-          "description": "",
           "group": "Padding",
           "extraInformation": [
             "Label"
           ],
+          "choices": [],
           "name": "BottomPadding"
         },
         {
           "value": "0.25",
           "type": "Number",
           "label": "Hovered fade out duration (in seconds)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "HoveredFadeOutDuration"
         }
       ],

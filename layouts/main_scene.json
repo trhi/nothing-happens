@@ -13,13 +13,16 @@
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
+    "gridDepth": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
+    "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
     "zoomFactor": 0.713037763069093,
-    "windowMask": false
+    "windowMask": false,
+    "selectedLayer": ""
   },
   "objectsGroups": [
     {
@@ -2919,6 +2922,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -3156,6 +3160,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
+        "lineHeight": 0,
         "color": "0;0;0"
       }
     },
@@ -5891,6 +5896,7 @@
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 12,
+            "lineHeight": 0,
             "color": "19;0;230"
           }
         },
@@ -5945,6 +5951,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "center",
         "characterSize": 10,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     }
@@ -8884,6 +8891,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -8925,6 +8933,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -8955,6 +8964,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -8991,6 +9001,7 @@
       "ambientLightColorB": 128,
       "ambientLightColorG": 128,
       "ambientLightColorR": 128,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,

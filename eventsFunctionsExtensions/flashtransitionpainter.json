@@ -814,9 +814,6 @@
           "type": "Number",
           "unit": "Dimensionless",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Progress"
         },
@@ -824,9 +821,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Duration"
         },
@@ -834,9 +828,6 @@
           "value": "",
           "type": "String",
           "label": "Type of effect ",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Type"
         },
@@ -844,9 +835,6 @@
           "value": "",
           "type": "String",
           "label": "Direction of transition",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Direction"
         },
@@ -854,9 +842,6 @@
           "value": "255",
           "type": "Number",
           "label": "The maximum of the opacity only for flash",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "MaxOpacity"
         }

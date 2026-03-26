@@ -1,9 +1,9 @@
 {
   "firstLayout": "webclick",
   "gdVersion": {
-    "build": 231,
+    "build": 251,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -80,7 +80,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -694,8 +696,7 @@
         "preloadInCache": false,
         "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
@@ -1056,6 +1057,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -1109,6 +1111,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "center",
         "characterSize": 20,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },

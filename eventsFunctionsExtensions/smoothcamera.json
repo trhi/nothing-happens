@@ -4525,54 +4525,40 @@
           "value": "0.9",
           "type": "Number",
           "label": "Leftward catch-up speed (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "LeftwardSpeed"
         },
         {
           "value": "0.9",
           "type": "Number",
           "label": "Rightward catch-up speed (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "RightwardSpeed"
         },
         {
           "value": "0.9",
           "type": "Number",
           "label": "Upward catch-up speed (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "UpwardSpeed"
         },
         {
           "value": "0.9",
           "type": "Number",
           "label": "Downward catch-up speed (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "DownwardSpeed"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Follow on X axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "FollowOnX"
         },
         {
           "value": "true",
           "type": "Boolean",
           "label": "Follow on Y axis",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "name": "FollowOnY"
         },
         {
@@ -4580,9 +4566,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area left border",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "FollowFreeAreaLeft"
         },
@@ -4591,9 +4575,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area right border",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "FollowFreeAreaRight"
         },
@@ -4602,9 +4584,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area top border",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "FollowFreeAreaTop"
         },
@@ -4613,9 +4593,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area bottom border",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "FollowFreeAreaBottom"
         },
@@ -4624,9 +4602,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Camera offset X",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "CameraOffsetX"
         },
@@ -4635,9 +4611,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Camera offset Y",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "advanced": true,
           "name": "CameraOffsetY"
         },
@@ -4646,9 +4620,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Camera delay",
-          "description": "",
           "group": "Timing",
-          "extraInformation": [],
           "deprecated": true,
           "name": "CameraDelay"
         },
@@ -4657,9 +4629,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Forecast time",
-          "description": "",
           "group": "Timing",
-          "extraInformation": [],
           "deprecated": true,
           "name": "ForecastTime"
         },
@@ -4668,9 +4638,7 @@
           "type": "Number",
           "unit": "Second",
           "label": "Forecast history duration",
-          "description": "",
           "group": "Timing",
-          "extraInformation": [],
           "deprecated": true,
           "name": "ForecastHistoryDuration"
         },
@@ -4678,9 +4646,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LogLeftwardSpeed"
         },
@@ -4688,9 +4653,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LogRightwardSpeed"
         },
@@ -4698,9 +4660,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LogDownwardSpeed"
         },
@@ -4708,9 +4667,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "LogUpwardSpeed"
         },
@@ -4718,9 +4674,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DelayedCenterX"
         },
@@ -4728,9 +4681,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "DelayedCenterY"
         },
@@ -4738,9 +4688,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryMeanX"
         },
@@ -4748,9 +4695,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryMeanY"
         },
@@ -4758,9 +4702,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryVarianceX"
         },
@@ -4768,9 +4709,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryCovariance"
         },
@@ -4778,9 +4716,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryLinearA"
         },
@@ -4788,9 +4723,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryLinearB"
         },
@@ -4798,9 +4730,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastedX"
         },
@@ -4808,9 +4737,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastedY"
         },
@@ -4818,9 +4744,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ProjectedNewestX"
         },
@@ -4828,9 +4751,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ProjectedNewestY"
         },
@@ -4838,9 +4758,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ProjectedOldestX"
         },
@@ -4848,9 +4765,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ProjectedOldestY"
         },
@@ -4858,9 +4772,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "ForecastHistoryVarianceY"
         },
@@ -4868,9 +4779,6 @@
           "value": "",
           "type": "Number",
           "label": "Index (local variable)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "Index"
         },
@@ -4878,9 +4786,6 @@
           "value": "0",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CameraDelayCatchUpSpeed"
         },
@@ -4888,9 +4793,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CameraExtraDelay"
         },
@@ -4898,9 +4800,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "WaitingSpeedXMax"
         },
@@ -4908,9 +4807,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "WaitingSpeedYMax"
         },
@@ -4918,9 +4814,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "WaitingEnd"
         },
@@ -4928,9 +4821,6 @@
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "CameraDelayCatchUpDuration"
         },
@@ -4939,9 +4829,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Leftward maximum speed",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "advanced": true,
           "name": "LeftwardSpeedMax"
         },
@@ -4950,9 +4838,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Rightward maximum speed",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "advanced": true,
           "name": "RightwardSpeedMax"
         },
@@ -4961,9 +4847,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Upward maximum speed",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "advanced": true,
           "name": "UpwardSpeedMax"
         },
@@ -4972,9 +4856,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Downward maximum speed",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "advanced": true,
           "name": "DownwardSpeedMax"
         },
@@ -4982,9 +4864,6 @@
           "value": "",
           "type": "Number",
           "label": "OldX (local variable)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OldX"
         },
@@ -4992,9 +4871,6 @@
           "value": "",
           "type": "Number",
           "label": "OldY (local variable)",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "OldY"
         },
@@ -5002,9 +4878,6 @@
           "value": "",
           "type": "Boolean",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "IsCalledManually"
         }
@@ -5237,31 +5110,26 @@
           "value": "",
           "type": "Behavior",
           "label": "Platformer character behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "PlatformBehavior::PlatformerObjectBehavior"
           ],
+          "choices": [],
           "name": "PlatformerCharacter"
         },
         {
           "value": "",
           "type": "Behavior",
           "label": "Smooth camera behavior",
-          "description": "",
-          "group": "",
           "extraInformation": [
             "SmoothCamera::SmoothCamera"
           ],
+          "choices": [],
           "name": "SmoothCamera"
         },
         {
           "value": "",
           "type": "Number",
           "label": "",
-          "description": "",
-          "group": "",
-          "extraInformation": [],
           "hidden": true,
           "name": "JumpOriginY"
         },
@@ -5270,9 +5138,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area top in the air",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "AirFollowFreeAreaTop"
         },
         {
@@ -5280,9 +5146,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area bottom in the air",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "AirFollowFreeAreaBottom"
         },
         {
@@ -5290,9 +5154,7 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area top on the floor",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "FloorFollowFreeAreaTop"
         },
         {
@@ -5300,45 +5162,35 @@
           "type": "Number",
           "unit": "Pixel",
           "label": "Follow free area bottom on the floor",
-          "description": "",
           "group": "Position",
-          "extraInformation": [],
           "name": "FloorFollowFreeAreaBottom"
         },
         {
           "value": "0.95",
           "type": "Number",
           "label": "Upward speed in the air (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "AirUpwardSpeed"
         },
         {
           "value": "0.95",
           "type": "Number",
           "label": "Downward speed in the air (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "AirDownwardSpeed"
         },
         {
           "value": "0.9",
           "type": "Number",
           "label": "Upward speed on the floor (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "FloorUpwardSpeed"
         },
         {
           "value": "0.9",
           "type": "Number",
           "label": "Downward speed on the floor (in ratio per second)",
-          "description": "",
           "group": "Catch-up speed",
-          "extraInformation": [],
           "name": "FloorDownwardSpeed"
         },
         {
@@ -5346,9 +5198,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Upward maximum speed in the air",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "name": "AirUpwardSpeedMax"
         },
         {
@@ -5356,9 +5206,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Downward maximum speed in the air",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "name": "AirDownwardSpeedMax"
         },
         {
@@ -5366,9 +5214,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Upward maximum speed on the floor",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "name": "FloorUpwardSpeedMax"
         },
         {
@@ -5376,9 +5222,7 @@
           "type": "Number",
           "unit": "PixelSpeed",
           "label": "Downward maximum speed on the floor",
-          "description": "",
           "group": "Maximum speed",
-          "extraInformation": [],
           "name": "FloorDownwardSpeedMax"
         }
       ],
