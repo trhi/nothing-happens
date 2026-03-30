@@ -1,6 +1,7 @@
 {
   "author": "Add00, AlanPH, Tristan (Victris Games)",
   "category": "Advanced",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Color Conversion",
   "gdevelopVersion": ">=5.5.222",
@@ -1012,6 +1013,44 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "HexToRgb"
+      },
+      {
+        "functionName": "RgbToLuminance"
+      },
+      {
+        "functionName": "HexToLuminance"
+      },
+      {
+        "functionName": "RgbMean"
+      },
+      {
+        "functionName": "RgbToHex"
+      },
+      {
+        "functionName": "RgbToHsl"
+      },
+      {
+        "functionName": "HsvToRgb"
+      },
+      {
+        "functionName": "RgbToHsv"
+      },
+      {
+        "functionName": "NameToRgb"
+      },
+      {
+        "functionName": "HslToRgb"
+      },
+      {
+        "functionName": "HueToRgb"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

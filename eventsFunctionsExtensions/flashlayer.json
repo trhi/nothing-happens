@@ -1,6 +1,7 @@
 {
   "author": "Tristan Rhodes (tristan@victrisgames.com)",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Flash layer",
   "gdevelopVersion": ">=5.5.222",
@@ -98,6 +99,14 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "FlashLayer"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

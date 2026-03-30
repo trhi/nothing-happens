@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "",
   "gdevelopVersion": "",
@@ -23,6 +24,9 @@
   ],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": [
     {
@@ -238,7 +242,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "change_text"
+          }
+        ]
+      },
       "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "variants": []
     }
   ]

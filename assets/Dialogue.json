@@ -442,7 +442,7 @@
 	{
 		"title": "intro",
 		"tags": "",
-		"body": "28th of April 2025, late morning\nall electrical power is out, everywhere\nwhile nothing happens\nsomething else happens,\nseek what happens\nor…\n\n<< set $isLastLine to true>>",
+		"body": "28th of April 2025, late morning\nall electrical power is out, everywhere\nwhile nothing happens\nsomething else happens,\nseek what happens\nor else…\n\n<< set $isLastLine to true>>",
 		"position": {
 			"x": 87,
 			"y": 317
@@ -452,7 +452,7 @@
 	{
 		"title": "end",
 		"tags": "",
-		"body": "lights are back!!!\nbusiness as usual?\nlife as usual?\nor did something change?\nwhat do you want to do now?\nwhat is your first move?\n\n<< set $isPlayAgain to true>>",
+		"body": "lights are back!!!\nelectricity is back!\nbusiness as usual?\nlife as usual?\nor did something change?\nplay another apartment?\n\n<< set $isPlayAgain to true>>",
 		"position": {
 			"x": 61,
 			"y": 576

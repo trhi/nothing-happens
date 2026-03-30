@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "main_95scene",
-  "name": "main_scene",
+  "mangledName": "main_95scene_45V2",
+  "name": "main_scene-V2",
   "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,9 +20,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.713037763069093,
+    "zoomFactor": 2.3530036678723376,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [
     {
@@ -398,15 +399,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 234,
       "keepRatio": true,
       "layer": "MobileControls",
       "name": "Joystick",
       "persistentUuid": "b0c31bb4-0add-4dda-9367-c5136e4b118d",
-      "width": 0,
-      "x": 242,
-      "y": 527,
+      "width": 234,
+      "x": 203,
+      "y": 488,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -619,23 +620,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 20,
-      "keepRatio": true,
-      "layer": "",
-      "name": "apple",
-      "persistentUuid": "3095dd79-ec57-470c-bb1c-b45bf44f1085",
-      "width": 20,
-      "x": 478,
-      "y": 85,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 2,
       "height": 94,
       "keepRatio": true,
@@ -699,7 +683,13 @@
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window0"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1195,23 +1185,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 68,
-      "keepRatio": true,
-      "layer": "",
-      "name": "computer",
-      "persistentUuid": "062f2799-16b9-4255-b552-061120aba489",
-      "width": 68,
-      "x": 362,
-      "y": 44,
-      "zOrder": 63,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -1230,14 +1203,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 77,
-      "height": 102,
+      "height": 234,
       "keepRatio": true,
       "layer": "MobileControls",
       "name": "button",
       "persistentUuid": "5602aa70-2638-4f93-9686-3442cd55bcf6",
-      "width": 102,
-      "x": 1015,
-      "y": 477,
+      "width": 234,
+      "x": 843,
+      "y": 440,
       "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
@@ -1270,8 +1243,8 @@
       "name": "phone",
       "persistentUuid": "af25c93d-8960-4d43-bdc9-6c36ef88490d",
       "width": 18,
-      "x": 328,
-      "y": 66,
+      "x": 413,
+      "y": 69,
       "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
@@ -1292,7 +1265,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window1"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1309,7 +1288,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window2"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1326,7 +1311,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window3"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1343,7 +1334,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window4"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1360,7 +1357,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window5"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1377,7 +1380,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window6"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1394,7 +1403,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window7"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1411,7 +1426,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window0"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1445,7 +1466,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window1"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1530,7 +1557,13 @@
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window2"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1547,7 +1580,13 @@
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window3"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1564,7 +1603,13 @@
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window4"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1648,7 +1693,13 @@
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window5"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1665,7 +1716,13 @@
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window6"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1682,7 +1739,13 @@
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window7"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1767,7 +1830,13 @@
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window0"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1833,23 +1902,6 @@
       "x": 869,
       "y": -61,
       "zOrder": 74,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 50,
-      "keepRatio": true,
-      "layer": "",
-      "name": "lamp_2",
-      "persistentUuid": "91ccb9c9-679b-4e44-a31e-aff985690506",
-      "width": 50,
-      "x": 431,
-      "y": 43,
-      "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1937,7 +1989,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window1"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2090,7 +2148,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window2"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2276,7 +2340,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window3"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2293,7 +2363,13 @@
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": "window4"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2629,23 +2705,6 @@
       "x": 1489,
       "y": 1198,
       "zOrder": 105,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 30,
-      "keepRatio": true,
-      "layer": "",
-      "name": "candle_1",
-      "persistentUuid": "6a957225-d08a-47b0-b55b-0d93a1d37394",
-      "width": 30,
-      "x": 277,
-      "y": 66,
-      "zOrder": 106,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2998,6 +3057,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "computer",
+      "persistentUuid": "88aeb73b-4f00-49b3-9539-1569d820aa05",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3193,6 +3253,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "phone",
+      "persistentUuid": "00b53f51-c059-4e4f-8a25-99b7b9554b2d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3419,6 +3480,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "apple",
+      "persistentUuid": "871d80d0-11b3-442d-9b18-4207ebf0a79f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3617,6 +3679,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "candle_1",
+      "persistentUuid": "72a8e33b-c45c-490f-9394-e0d4996289d1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3751,7 +3814,13 @@
       "name": "window",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "assignedBranch",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -5116,6 +5185,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "lamp_2",
+      "persistentUuid": "a6eca774-01dd-4f08-bd72-1c914bb87e23",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5862,7 +5932,7 @@
       "content": {
         "LeftPadding": 0,
         "RightPadding": 0,
-        "PressedLabelOffsetY": 4,
+        "PressedLabelOffsetY": 6,
         "BottomPadding": 6,
         "TopPadding": 0,
         "HoveredFadeOutDuration": 0
@@ -5870,23 +5940,23 @@
       "childrenContent": {
         "Hovered": {
           "bottomMargin": 0,
-          "height": 64,
+          "height": 96,
           "leftMargin": 0,
           "rightMargin": 0,
           "texture": "Idle3",
           "tiled": false,
           "topMargin": 0,
-          "width": 64
+          "width": 96
         },
         "Idle": {
           "bottomMargin": 0,
-          "height": 64,
+          "height": 96,
           "leftMargin": 0,
           "rightMargin": 0,
           "texture": "Idle3",
           "tiled": false,
           "topMargin": 0,
-          "width": 64
+          "width": 96
         },
         "Label": {
           "bold": false,
@@ -5896,7 +5966,7 @@
           "string": "INTERACT",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 12,
+          "characterSize": 30,
           "color": {
             "b": 230,
             "g": 0,
@@ -5920,20 +5990,20 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 12,
+            "characterSize": 30,
             "lineHeight": 0,
             "color": "19;0;230"
           }
         },
         "Pressed": {
           "bottomMargin": 0,
-          "height": 64,
+          "height": 96,
           "leftMargin": 0,
           "rightMargin": 0,
           "texture": "Idle4",
           "tiled": false,
           "topMargin": 0,
-          "width": 64
+          "width": 96
         }
       }
     },
@@ -6925,6 +6995,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mainSceneVariantIndex",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "DialogueTree::SetBooleanVariable"
               },
               "parameters": [
@@ -7032,6 +7112,34 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "if (!gdjs.evtTools.systemInfo.isMobile()) return;",
+                "const textObjects = runtimeScene.getObjects(\"dialogue_txt\");",
+                "const backgroundObjects = runtimeScene.getObjects(\"dialogue_background\");",
+                "const screenWidth = gdjs.evtTools.window.getGameResolutionWidth(runtimeScene);",
+                "const textWidth = Math.round(screenWidth * 0.7);",
+                "const paddingX = 20;",
+                "const paddingY = 16;",
+                "for (const obj of textObjects) {",
+                "  obj.setCharacterSize(52);",
+                "  obj.setWidth(textWidth);",
+                "}",
+                "if (!textObjects.length || !backgroundObjects.length) return;",
+                "const text = textObjects[0];",
+                "const background = backgroundObjects[0];",
+                "background.getBehavior(\"Resizable\").setWidth(text.getWidth() + paddingX * 2);",
+                "background.getBehavior(\"Resizable\").setHeight(text.getHeight() + paddingY * 2);",
+                "background.setX((screenWidth - background.getWidth()) / 2);",
+                "background.setY(20);",
+                "text.setX(background.getX() + paddingX);",
+                "text.setY(background.getY() + paddingY);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8373,228 +8481,32 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "randomIndex",
-                    "=",
-                    "RandomInRange(0,7)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "chosenBranch",
-                    "=",
-                    "VariableString(windowBranches[Variable(randomIndex)])"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window0\""
-                      ]
-                    }
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const player = runtimeScene.getObjects(\"Playable_Character\")[0];",
+                    "if (!player) return;",
+                    "const collidingWindows = runtimeScene.getObjects(\"window\").filter((windowObject) =>",
+                    "  gdjs.evtTools.object.hitBoxesCollisionTest(",
+                    "    Hashtable.newFrom({ window: [windowObject] }),",
+                    "    Hashtable.newFrom({ Playable_Character: [player] }),",
+                    "    false,",
+                    "    runtimeScene,",
+                    "    false",
+                    "  )",
+                    ");",
+                    "if (!collidingWindows.length) return;",
+                    "collidingWindows.sort((a, b) => a.getSqDistanceToObject(player) - b.getSqDistanceToObject(player));",
+                    "const branch = collidingWindows[0].getVariables().get(\"assignedBranch\").getAsString();",
+                    "if (!branch) return;",
+                    "runtimeScene.getScene().getVariables().get(\"chosenBranch\").setString(branch);",
+                    "gdjs.dialogueTree.startFrom(branch);"
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window0\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window1\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window1\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window2\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window2\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window3\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window3\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window4\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window4\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window5\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window5\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window6\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window6\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "chosenBranch",
-                        "=",
-                        "\"window7\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "\"window7\""
-                      ]
-                    }
-                  ]
+                  "parameterObjects": "",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
                 }
               ]
             },
@@ -9357,6 +9269,25 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "if (!gdjs.evtTools.systemInfo.isMobile()) return;",
+            "if (!runtimeScene.getOnceTriggers().triggerOnce(200202)) return;",
+            "const joystickObjects = runtimeScene.getObjects(\"Joystick\");",
+            "const buttonObjects = runtimeScene.getObjects(\"button\");",
+            "if (!joystickObjects.length || !buttonObjects.length) return;",
+            "const joystick = joystickObjects[0];",
+            "const button = buttonObjects[0];",
+            "const centerY = joystick.getCenterYInScene();",
+            "const horizontalInset = joystick.getCenterXInScene();",
+            "joystick.setCenterPositionInScene(horizontalInset, centerY);",
+            "button.setCenterPositionInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - horizontalInset, centerY);"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
         }
       ],
       "parameters": []

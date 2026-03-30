@@ -23,13 +23,23 @@ gdjs.webclickCode.GDFilter_9595endObjects1= [];
 gdjs.webclickCode.GDFilter_9595endObjects2= [];
 
 
-gdjs.webclickCode.asyncCallback14862396 = function (runtimeScene, asyncObjectsList) {
+gdjs.webclickCode.userFunc0xdae1b8 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+if (!gdjs.evtTools.systemInfo.isMobile()) return;
+if (!runtimeScene.getOnceTriggers().triggerOnce(200101)) return;
+for (const obj of runtimeScene.getObjects("NewText")) {
+  obj.setCharacterSize(52);
+  obj.setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - obj.getWidth()) / 2);
+  obj.setY((gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) - obj.getHeight()) / 2);
+}
+};
+gdjs.webclickCode.asyncCallback18383540 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.webclickCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "intro", false);
 }
 gdjs.webclickCode.localVariables.length = 0;
 }
-gdjs.webclickCode.idToCallbackMap.set(14862396, gdjs.webclickCode.asyncCallback14862396);
+gdjs.webclickCode.idToCallbackMap.set(18383540, gdjs.webclickCode.asyncCallback18383540);
 gdjs.webclickCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -39,7 +49,7 @@ gdjs.webclickCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.webclickCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.webclickCode.asyncCallback14862396(runtimeScene, asyncObjectsList)), 14862396, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.webclickCode.asyncCallback18383540(runtimeScene, asyncObjectsList)), 18383540, asyncObjectsList);
 }
 }
 
@@ -51,11 +61,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-}
+gdjs.webclickCode.userFunc0xdae1b8(runtimeScene);
 
 }
 

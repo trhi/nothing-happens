@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Camera",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Smooth Camera",
   "gdevelopVersion": "",
@@ -40,6 +41,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Smoothly scroll to follow an object.",
@@ -1966,6 +1970,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetX",
+          "group": "Camera configuration",
           "name": "SetOffsetXOp",
           "sentence": "",
           "events": [
@@ -2107,6 +2112,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetY",
+          "group": "Camera configuration",
           "name": "SetOffsetYOp",
           "sentence": "",
           "events": [
@@ -4520,6 +4526,141 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "MoveCameraCloser"
+          },
+          {
+            "functionName": "DoMoveCameraCloser"
+          },
+          {
+            "functionName": "WaitAndCatchUp"
+          },
+          {
+            "functionName": "DrawDebug"
+          },
+          {
+            "folderName": "Camera configuration",
+            "children": [
+              {
+                "functionName": "SetFollowOnX"
+              },
+              {
+                "functionName": "SetFollowOnY"
+              },
+              {
+                "functionName": "SetFollowFreeAreaRight"
+              },
+              {
+                "functionName": "SetFollowFreeAreaLeft"
+              },
+              {
+                "functionName": "SetFollowFreeAreaTop"
+              },
+              {
+                "functionName": "SetFollowFreeAreaBottom"
+              },
+              {
+                "functionName": "SetLeftwardSpeedMax"
+              },
+              {
+                "functionName": "SetRightwardSpeedMax"
+              },
+              {
+                "functionName": "SetUpwardSpeedMax"
+              },
+              {
+                "functionName": "SetDownwardSpeedMax"
+              },
+              {
+                "functionName": "SetLeftwardSpeed"
+              },
+              {
+                "functionName": "SetRightwardSpeed"
+              },
+              {
+                "functionName": "SetDownwardSpeed"
+              },
+              {
+                "functionName": "SetUpwardSpeed"
+              },
+              {
+                "functionName": "OffsetX"
+              },
+              {
+                "functionName": "SetOffsetXOp"
+              },
+              {
+                "functionName": "SetOffsetX"
+              },
+              {
+                "functionName": "OffsetY"
+              },
+              {
+                "functionName": "SetOffsetYOp"
+              },
+              {
+                "functionName": "SetOffsetY"
+              },
+              {
+                "functionName": "SetForecastTime"
+              },
+              {
+                "functionName": "SetCameraDelay"
+              }
+            ]
+          },
+          {
+            "folderName": "Private",
+            "children": [
+              {
+                "functionName": "FreeAreaLeft"
+              },
+              {
+                "functionName": "FreeAreaRight"
+              },
+              {
+                "functionName": "FreeAreaBottom"
+              },
+              {
+                "functionName": "FreeAreaTop"
+              },
+              {
+                "functionName": "UpdateDelayedPosition"
+              },
+              {
+                "functionName": "AddForecastHistoryPosition"
+              },
+              {
+                "functionName": "UpdateForecastedPosition"
+              },
+              {
+                "functionName": "ProjectHistoryEnds"
+              },
+              {
+                "functionName": "ForecastTimeRatio"
+              }
+            ]
+          },
+          {
+            "functionName": "IsDelayed"
+          },
+          {
+            "functionName": "CurrentDelay"
+          },
+          {
+            "functionName": "IsWaiting"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0.9",
@@ -4882,7 +5023,175 @@
           "name": "IsCalledManually"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Catch-up speed",
+            "children": [
+              {
+                "propertyName": "LeftwardSpeed"
+              },
+              {
+                "propertyName": "RightwardSpeed"
+              },
+              {
+                "propertyName": "UpwardSpeed"
+              },
+              {
+                "propertyName": "DownwardSpeed"
+              }
+            ]
+          },
+          {
+            "propertyName": "FollowOnX"
+          },
+          {
+            "propertyName": "FollowOnY"
+          },
+          {
+            "folderName": "Position",
+            "children": [
+              {
+                "propertyName": "FollowFreeAreaLeft"
+              },
+              {
+                "propertyName": "FollowFreeAreaRight"
+              },
+              {
+                "propertyName": "FollowFreeAreaTop"
+              },
+              {
+                "propertyName": "FollowFreeAreaBottom"
+              },
+              {
+                "propertyName": "CameraOffsetX"
+              },
+              {
+                "propertyName": "CameraOffsetY"
+              }
+            ]
+          },
+          {
+            "folderName": "Timing",
+            "children": [
+              {
+                "propertyName": "CameraDelay"
+              },
+              {
+                "propertyName": "ForecastTime"
+              },
+              {
+                "propertyName": "ForecastHistoryDuration"
+              }
+            ]
+          },
+          {
+            "propertyName": "LogLeftwardSpeed"
+          },
+          {
+            "propertyName": "LogRightwardSpeed"
+          },
+          {
+            "propertyName": "LogDownwardSpeed"
+          },
+          {
+            "propertyName": "LogUpwardSpeed"
+          },
+          {
+            "propertyName": "DelayedCenterX"
+          },
+          {
+            "propertyName": "DelayedCenterY"
+          },
+          {
+            "propertyName": "ForecastHistoryMeanX"
+          },
+          {
+            "propertyName": "ForecastHistoryMeanY"
+          },
+          {
+            "propertyName": "ForecastHistoryVarianceX"
+          },
+          {
+            "propertyName": "ForecastHistoryCovariance"
+          },
+          {
+            "propertyName": "ForecastHistoryLinearA"
+          },
+          {
+            "propertyName": "ForecastHistoryLinearB"
+          },
+          {
+            "propertyName": "ForecastedX"
+          },
+          {
+            "propertyName": "ForecastedY"
+          },
+          {
+            "propertyName": "ProjectedNewestX"
+          },
+          {
+            "propertyName": "ProjectedNewestY"
+          },
+          {
+            "propertyName": "ProjectedOldestX"
+          },
+          {
+            "propertyName": "ProjectedOldestY"
+          },
+          {
+            "propertyName": "ForecastHistoryVarianceY"
+          },
+          {
+            "propertyName": "Index"
+          },
+          {
+            "propertyName": "CameraDelayCatchUpSpeed"
+          },
+          {
+            "propertyName": "CameraExtraDelay"
+          },
+          {
+            "propertyName": "WaitingSpeedXMax"
+          },
+          {
+            "propertyName": "WaitingSpeedYMax"
+          },
+          {
+            "propertyName": "WaitingEnd"
+          },
+          {
+            "propertyName": "CameraDelayCatchUpDuration"
+          },
+          {
+            "folderName": "Maximum speed",
+            "children": [
+              {
+                "propertyName": "LeftwardSpeedMax"
+              },
+              {
+                "propertyName": "RightwardSpeedMax"
+              },
+              {
+                "propertyName": "UpwardSpeedMax"
+              },
+              {
+                "propertyName": "DownwardSpeedMax"
+              }
+            ]
+          },
+          {
+            "propertyName": "OldX"
+          },
+          {
+            "propertyName": "OldY"
+          },
+          {
+            "propertyName": "IsCalledManually"
+          }
+        ]
+      }
     },
     {
       "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -5105,6 +5414,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -5226,7 +5543,71 @@
           "name": "FloorDownwardSpeedMax"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PlatformerCharacter"
+          },
+          {
+            "propertyName": "SmoothCamera"
+          },
+          {
+            "propertyName": "JumpOriginY"
+          },
+          {
+            "folderName": "Position",
+            "children": [
+              {
+                "propertyName": "AirFollowFreeAreaTop"
+              },
+              {
+                "propertyName": "AirFollowFreeAreaBottom"
+              },
+              {
+                "propertyName": "FloorFollowFreeAreaTop"
+              },
+              {
+                "propertyName": "FloorFollowFreeAreaBottom"
+              }
+            ]
+          },
+          {
+            "folderName": "Catch-up speed",
+            "children": [
+              {
+                "propertyName": "AirUpwardSpeed"
+              },
+              {
+                "propertyName": "AirDownwardSpeed"
+              },
+              {
+                "propertyName": "FloorUpwardSpeed"
+              },
+              {
+                "propertyName": "FloorDownwardSpeed"
+              }
+            ]
+          },
+          {
+            "folderName": "Maximum speed",
+            "children": [
+              {
+                "propertyName": "AirUpwardSpeedMax"
+              },
+              {
+                "propertyName": "AirDownwardSpeedMax"
+              },
+              {
+                "propertyName": "FloorUpwardSpeedMax"
+              },
+              {
+                "propertyName": "FloorDownwardSpeedMax"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

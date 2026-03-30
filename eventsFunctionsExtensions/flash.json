@@ -1,6 +1,7 @@
 {
   "author": "@4ian, Entropy, VegeTato",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Flash object",
   "gdevelopVersion": ">=5.5.222",
@@ -386,6 +387,23 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "ColorTint"
+      },
+      {
+        "functionName": "IsTinted"
+      },
+      {
+        "functionName": "ToggleColorTint"
+      },
+      {
+        "functionName": "ToggleVisibility"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
@@ -855,6 +873,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash visibility (blink) configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -891,6 +910,37 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash visibility (blink) configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0.1",
@@ -917,7 +967,20 @@
           "name": "FlashDuration"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          }
+        ]
+      }
     },
     {
       "description": "Make an object flash a color tint for a period of time.",
@@ -1421,6 +1484,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash color tint configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -1458,6 +1522,37 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash color tint configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0.1",
@@ -1491,7 +1586,23 @@
           "name": "TintColor"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          },
+          {
+            "propertyName": "TintColor"
+          }
+        ]
+      }
     },
     {
       "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -2045,6 +2156,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash opacity smothly (fade) configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -2081,6 +2193,37 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash opacity smothly (fade) configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -2145,7 +2288,32 @@
           "name": "StartingOpacity"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Opacity"
+          },
+          {
+            "propertyName": "TweenBehavior"
+          },
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          },
+          {
+            "propertyName": "TargetOpacity"
+          },
+          {
+            "propertyName": "StartingOpacity"
+          }
+        ]
+      }
     },
     {
       "description": "Make the object flash an effect for a period of time.",
@@ -2792,6 +2960,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "HalfPeriodTime",
+          "group": "Flash effect configuration",
           "name": "SetHalfPeriodTime",
           "sentence": "",
           "events": [
@@ -2950,6 +3119,40 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "Flash"
+          },
+          {
+            "functionName": "IsFlashing"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "Stop"
+          },
+          {
+            "folderName": "Flash effect configuration",
+            "children": [
+              {
+                "functionName": "HalfPeriodTime"
+              },
+              {
+                "functionName": "SetHalfPeriodTime"
+              }
+            ]
+          },
+          {
+            "functionName": "ToggleEffect"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -2993,7 +3196,26 @@
           "name": "EffectName"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Effect"
+          },
+          {
+            "propertyName": "HalfPeriodTime"
+          },
+          {
+            "propertyName": "IsFlashing"
+          },
+          {
+            "propertyName": "FlashDuration"
+          },
+          {
+            "propertyName": "EffectName"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

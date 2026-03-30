@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "main_scene",
+  "associatedLayout": "main_scene-V3",
   "name": "DialogueEvents",
   "events": [
     {
@@ -174,28 +174,11 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "KeyFromTextPressed"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextReleased"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Space\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-                      },
-                      "parameters": [
-                        "button",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "",
+                    "\"Space\""
                   ]
                 }
               ],
@@ -211,17 +194,6 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "dialogue_background",
-                    "",
-                    "yes",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "DialogueTree::IsDialogueRunning"
@@ -233,6 +205,21 @@
                     "value": "DialogueTree::HasClippedTextScrollingCompleted"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "button",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -255,7 +242,7 @@
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "KeyFromTextReleased"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
                         "",

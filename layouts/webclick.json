@@ -22,7 +22,8 @@
     "snap": false,
     "zoomFactor": 0.546875,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [],
@@ -55,7 +56,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ],
       "string": "[[ ... CLICK OR TAP TO BEGIN ... ]]",
       "font": "",
       "textAlignment": "center",
@@ -113,18 +119,19 @@
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": [
+        "if (!gdjs.evtTools.systemInfo.isMobile()) return;",
+        "if (!runtimeScene.getOnceTriggers().triggerOnce(200101)) return;",
+        "for (const obj of runtimeScene.getObjects(\"NewText\")) {",
+        "  obj.setCharacterSize(52);",
+        "  obj.setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - obj.getWidth()) / 2);",
+        "  obj.setY((gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) - obj.getHeight()) / 2);",
+        "}"
       ],
-      "actions": []
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": false
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

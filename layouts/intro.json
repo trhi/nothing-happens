@@ -22,7 +22,8 @@
     "snap": false,
     "zoomFactor": 1.4307927813134336,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [],
@@ -141,6 +142,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -188,6 +193,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -237,6 +246,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -284,6 +297,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -500,6 +517,28 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": [
+        "if (!gdjs.evtTools.systemInfo.isMobile()) return;",
+        "if (!runtimeScene.getOnceTriggers().triggerOnce(200102)) return;",
+        "for (const obj of runtimeScene.getObjects(\"authors\")) {",
+        "  obj.setCharacterSize(58);",
+        "}",
+        "for (const obj of runtimeScene.getObjects(\"diogo\")) {",
+        "  obj.setCharacterSize(58);",
+        "}",
+        "for (const obj of runtimeScene.getObjects(\"start_game\")) {",
+        "  obj.setCharacterSize(42);",
+        "}",
+        "for (const obj of runtimeScene.getObjects(\"dialogue_txt_intro\")) {",
+        "  obj.setCharacterSize(52);",
+        "}"
+      ],
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": false
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -843,15 +882,88 @@
             "0",
             "2"
           ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "mainSceneVariantIndex",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main_scene-V3\"",
+                ""
+              ]
+            }
+          ]
         },
         {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"main_scene\"",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "mainSceneVariantIndex",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main_scene-V2\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "mainSceneVariantIndex",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"main_scene-V1\"",
+                ""
+              ]
+            }
           ]
         }
       ]

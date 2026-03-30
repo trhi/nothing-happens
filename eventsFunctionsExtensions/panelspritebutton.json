@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "User interface",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Panel sprite button",
   "gdevelopVersion": ">=5.5.222",
@@ -30,6 +31,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "The finite state machine used internally by the button object.",
@@ -1112,6 +1116,41 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "ResetState"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "IsPressedOutside"
+          },
+          {
+            "functionName": "TouchId"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "true",
@@ -1179,7 +1218,29 @@
           "name": "Index"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ShouldCheckHovering"
+          },
+          {
+            "propertyName": "State"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIsInside"
+          },
+          {
+            "propertyName": "MouseIsInside"
+          },
+          {
+            "propertyName": "Index"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -2665,6 +2726,53 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "SetLabelText"
+          },
+          {
+            "functionName": "LabelText"
+          },
+          {
+            "functionName": "CenterWithPaddingY"
+          },
+          {
+            "functionName": "CenterLabel"
+          },
+          {
+            "functionName": "Activate"
+          },
+          {
+            "functionName": "IsActivated"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",
@@ -2723,6 +2831,34 @@
           "name": "HoveredFadeOutDuration"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PressedLabelOffsetY"
+          },
+          {
+            "folderName": "Padding",
+            "children": [
+              {
+                "propertyName": "LeftPadding"
+              },
+              {
+                "propertyName": "RightPadding"
+              },
+              {
+                "propertyName": "TopPadding"
+              },
+              {
+                "propertyName": "BottomPadding"
+              }
+            ]
+          },
+          {
+            "propertyName": "HoveredFadeOutDuration"
+          }
+        ]
+      },
       "variants": []
     }
   ]

@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Input",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Multitouch joystick and buttons (sprite)",
   "gdevelopVersion": "",
@@ -1358,6 +1359,68 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "IsButtonPressed"
+      },
+      {
+        "functionName": "IsButtonReleased"
+      },
+      {
+        "functionName": "SetButtonState"
+      },
+      {
+        "functionName": "SetDeadZone"
+      },
+      {
+        "functionName": "DeadZone"
+      },
+      {
+        "functionName": "AngleTo4Way"
+      },
+      {
+        "functionName": "AngleTo8Way"
+      },
+      {
+        "functionName": "IsAngleIn4WayDirection"
+      },
+      {
+        "functionName": "IsAngleIn8WayDirection"
+      },
+      {
+        "functionName": "IsDirectionPushed4Way"
+      },
+      {
+        "functionName": "IsDirectionPushed8Way"
+      },
+      {
+        "functionName": "JoystickForce"
+      },
+      {
+        "functionName": "StickForce"
+      },
+      {
+        "functionName": "SetJoystickForce"
+      },
+      {
+        "functionName": "JoystickAngle"
+      },
+      {
+        "functionName": "StickAngle"
+      },
+      {
+        "functionName": "SetJoystickAngle"
+      },
+      {
+        "functionName": "StickForceX"
+      },
+      {
+        "functionName": "StickForceY"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Joystick that can be controlled by interacting with a touchscreen.",
@@ -2248,6 +2311,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "ControllerIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetControllerIdentifier",
           "sentence": "",
           "events": [
@@ -2329,6 +2393,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "JoystickIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetJoystickIdentifier",
           "sentence": "",
           "events": [
@@ -2410,6 +2475,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "DeadZoneRadius",
+          "group": "Multitouch Joystick configuration",
           "name": "SetDeadZoneRadius",
           "sentence": "",
           "events": [
@@ -2447,6 +2513,73 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "JoystickForce"
+          },
+          {
+            "functionName": "SetJoystickForce"
+          },
+          {
+            "functionName": "JoystickAngle"
+          },
+          {
+            "functionName": "SetJoystickAngle"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "functionName": "IsDirectionPushed4Way"
+          },
+          {
+            "functionName": "IsDirectionPushed8Way"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "Reset"
+          },
+          {
+            "folderName": "Multitouch Joystick configuration",
+            "children": [
+              {
+                "functionName": "ControllerIdentifier"
+              },
+              {
+                "functionName": "SetControllerIdentifier"
+              },
+              {
+                "functionName": "JoystickIdentifier"
+              },
+              {
+                "functionName": "SetJoystickIdentifier"
+              },
+              {
+                "functionName": "DeadZoneRadius"
+              },
+              {
+                "functionName": "SetDeadZoneRadius"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",
@@ -2496,7 +2629,32 @@
           "name": "TouchIndex"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "JoystickIdentifier"
+          },
+          {
+            "propertyName": "DeadZoneRadius"
+          },
+          {
+            "propertyName": "JoystickAngle"
+          },
+          {
+            "propertyName": "JoystickForce"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIndex"
+          }
+        ]
+      }
     },
     {
       "description": "Detect button presses made on a touchscreen.",
@@ -2869,6 +3027,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "IsReleased"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "SetButtonState"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",
@@ -2904,7 +3079,26 @@
           "name": "IsReleased"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "ButtonIdentifier"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIndex"
+          },
+          {
+            "propertyName": "IsReleased"
+          }
+        ]
+      }
     },
     {
       "description": "Control a platformer character with a multitouch controller.",
@@ -3083,6 +3277,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -3125,7 +3327,28 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Property"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control a top-down character with a multitouch controller.",
@@ -3640,6 +3863,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -3695,7 +3926,28 @@
           "name": "StickMode"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "TopDownMovement"
+          },
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "JoystickIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "StickMode"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -4523,6 +4775,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "ControllerIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetControllerIdentifier",
           "sentence": "",
           "events": [
@@ -4595,6 +4848,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "JoystickIdentifier",
+          "group": "Multitouch Joystick configuration",
           "name": "SetJoystickIdentifier",
           "sentence": "",
           "events": [
@@ -4667,6 +4921,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "DeadZoneRadius",
+          "group": "Multitouch Joystick configuration",
           "name": "SetDeadZoneRadius",
           "sentence": "",
           "events": [
@@ -4700,6 +4955,76 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "UpdateConfiguration"
+          },
+          {
+            "functionName": "ActivateControl"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "JoystickForce"
+          },
+          {
+            "functionName": "StickForce"
+          },
+          {
+            "functionName": "StickForceX"
+          },
+          {
+            "functionName": "StickForceY"
+          },
+          {
+            "functionName": "JoystickAngle"
+          },
+          {
+            "functionName": "StickAngle"
+          },
+          {
+            "functionName": "IsDirectionPushed4Way"
+          },
+          {
+            "functionName": "IsDirectionPushed8Way"
+          },
+          {
+            "folderName": "Multitouch Joystick configuration",
+            "children": [
+              {
+                "functionName": "ControllerIdentifier"
+              },
+              {
+                "functionName": "SetControllerIdentifier"
+              },
+              {
+                "functionName": "JoystickIdentifier"
+              },
+              {
+                "functionName": "SetJoystickIdentifier"
+              },
+              {
+                "functionName": "DeadZoneRadius"
+              },
+              {
+                "functionName": "SetDeadZoneRadius"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "1",
@@ -4771,6 +5096,32 @@
           "name": "ParentOrigin"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ControllerIdentifier"
+          },
+          {
+            "propertyName": "JoystickIdentifier"
+          },
+          {
+            "propertyName": "DeadZoneRadius"
+          },
+          {
+            "propertyName": "ThumbAnchorOrigin"
+          },
+          {
+            "propertyName": "ThumbAnchorTarget"
+          },
+          {
+            "propertyName": "ThumbIsScaledProportionally"
+          },
+          {
+            "propertyName": "ParentOrigin"
+          }
+        ]
+      },
       "variants": []
     }
   ]

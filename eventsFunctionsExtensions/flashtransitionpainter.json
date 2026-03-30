@@ -1,6 +1,7 @@
 {
   "author": "Westboy31",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Flash and transition painter",
   "gdevelopVersion": ">=5.5.222",
@@ -33,6 +34,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Paint all over the screen a color for a period of time.",
@@ -808,6 +812,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "PaintEffect"
+          },
+          {
+            "functionName": "PaintEffectIsEnd"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",
@@ -846,7 +867,26 @@
           "name": "MaxOpacity"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Progress"
+          },
+          {
+            "propertyName": "Duration"
+          },
+          {
+            "propertyName": "Type"
+          },
+          {
+            "propertyName": "Direction"
+          },
+          {
+            "propertyName": "MaxOpacity"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

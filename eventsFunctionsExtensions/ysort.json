@@ -1,6 +1,7 @@
 {
   "author": "Gustavo Marciano",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "YSort",
   "gdevelopVersion": ">=5.5.222",
@@ -34,6 +35,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Set the depth (Z-order) of the instance to the value of its Y position in the scene, creating an illusion of depth. The origin point of the object is used to determine the Z-order.",
@@ -92,8 +96,18 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPostEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
     }
   ],
   "eventsBasedObjects": []
