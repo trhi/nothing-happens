@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9934433498260328,
+    "zoomFactor": 1.0973679695630372,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -50,7 +50,7 @@
           "name": "computer"
         },
         {
-          "name": "TileSet"
+          "name": "walls"
         },
         {
           "name": "phone"
@@ -536,7 +536,7 @@
       "height": 2848,
       "keepRatio": true,
       "layer": "",
-      "name": "TileSet",
+      "name": "walls",
       "persistentUuid": "991c1b4a-966c-4b6a-9be2-6272dfb8324e",
       "width": 3020.852941176478,
       "x": -1283.2647058823559,
@@ -613,6 +613,23 @@
       "x": -855,
       "y": 206,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "apple",
+      "persistentUuid": "3095dd79-ec57-470c-bb1c-b45bf44f1085",
+      "width": 20,
+      "x": 478,
+      "y": 85,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1185,6 +1202,23 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 68,
+      "keepRatio": true,
+      "layer": "",
+      "name": "computer",
+      "persistentUuid": "062f2799-16b9-4255-b552-061120aba489",
+      "width": 68,
+      "x": 362,
+      "y": 44,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -1229,6 +1263,23 @@
       "x": 6,
       "y": 685,
       "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 18,
+      "keepRatio": true,
+      "layer": "",
+      "name": "phone",
+      "persistentUuid": "af25c93d-8960-4d43-bdc9-6c36ef88490d",
+      "width": 18,
+      "x": 328,
+      "y": 66,
+      "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1884,6 +1935,40 @@
       "width": 62,
       "x": 869,
       "y": -61,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lamp_2",
+      "persistentUuid": "91ccb9c9-679b-4e44-a31e-aff985690506",
+      "width": 50,
+      "x": 431,
+      "y": 43,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "",
+      "name": "heater",
+      "persistentUuid": "19075d37-81de-4a70-85c2-078d03aa8aba",
+      "width": 62,
+      "x": 233,
+      "y": 250,
       "zOrder": 74,
       "numberProperties": [],
       "stringProperties": [],
@@ -2674,6 +2759,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "candle_1",
+      "persistentUuid": "6a957225-d08a-47b0-b55b-0d93a1d37394",
+      "width": 30,
+      "x": 277,
+      "y": 66,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 6,
+      "keepRatio": true,
+      "layer": "",
+      "name": "walls_doors_windows",
+      "persistentUuid": "bc012d2e-1531-4db9-a5cc-60ff88f2f0b4",
+      "width": 6,
+      "x": 2,
+      "y": 122,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3023,7 +3142,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "computer",
-      "persistentUuid": "88aeb73b-4f00-49b3-9539-1569d820aa05",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3148,7 +3266,8 @@
     },
     {
       "assetStoreId": "",
-      "name": "TileSet",
+      "name": "walls",
+      "persistentUuid": "e865e33b-cfd0-4222-a303-e12cf0947d52",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -3219,7 +3338,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "phone",
-      "persistentUuid": "00b53f51-c059-4e4f-8a25-99b7b9554b2d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3446,7 +3564,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "apple",
-      "persistentUuid": "871d80d0-11b3-442d-9b18-4207ebf0a79f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3645,7 +3762,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "candle_1",
-      "persistentUuid": "72a8e33b-c45c-490f-9394-e0d4996289d1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3850,7 +3966,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "lamp_1",
-      "persistentUuid": "203e8edd-b856-44ce-8595-2fc54c5be9bc",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4481,7 +4596,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "heater",
-      "persistentUuid": "309ce1b8-dc9b-4a0a-b71c-4dddf95f77da",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5153,7 +5267,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "lamp_2",
-      "persistentUuid": "a6eca774-01dd-4f08-bd72-1c914bb87e23",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5980,6 +6093,7 @@
       "bold": false,
       "italic": false,
       "name": "instructions",
+      "persistentUuid": "8405a63b-4033-4f3d-83cb-500ea6addfe9",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -5989,7 +6103,7 @@
       "string": "ARROWS TO MOVE / SPACEBAR TO INTERACT",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 10,
+      "characterSize": 18,
       "color": {
         "b": 255,
         "g": 255,
@@ -6013,9 +6127,25 @@
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
-        "characterSize": 10,
+        "characterSize": 18,
         "lineHeight": 0,
         "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "walls_doors_windows",
+      "persistentUuid": "a11697c1-b029-4f55-98bc-6420e80ed1d2",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "tilesets/nothing-happens-walls-windows-doors.png",
+        "rowCount": 25,
+        "columnCount": 13,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,13,26,39,1,14,27,40,2,15,28,41,3,16,29,42,55,56,43,44,45,4,17,30,5,6,7,8,9,10,11,12,19,32,20,33,46,59"
       }
     }
   ],
@@ -6197,7 +6327,10 @@
         "objectName": "NewPanelSprite"
       },
       {
-        "objectName": "TileSet"
+        "objectName": "walls"
+      },
+      {
+        "objectName": "walls_doors_windows"
       },
       {
         "objectName": "background_square"
@@ -6968,7 +7101,7 @@
               "parameters": [
                 "mainSceneVariantIndex",
                 "=",
-                "1"
+                "2"
               ]
             },
             {

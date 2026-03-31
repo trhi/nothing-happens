@@ -98,6 +98,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
+      "persistentUuid": "2b061f1c-1824-4d88-9d16-d15c41dad4e9",
       "texture": "",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,

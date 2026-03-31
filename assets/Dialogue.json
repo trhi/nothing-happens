@@ -452,7 +452,7 @@
 	{
 		"title": "end",
 		"tags": "",
-		"body": "lights are back!!!\nelectricity is back!\nbusiness as usual?\nlife as usual?\nor did something change?\nplay another apartment?\n\n<< set $isPlayAgain to true>>",
+		"body": "lights are back!!!\nelectricity is back!\nbusiness as usual?\nlife as usual?\nor did something change?\nplay again?\n\n<< set $isPlayAgain to true>>",
 		"position": {
 			"x": 61,
 			"y": 576

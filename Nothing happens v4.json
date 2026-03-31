@@ -696,6 +696,198 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png6.png\"}",
+        "name": "tilesets/tileset001.png6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png7.png\"}",
+        "name": "tilesets/tileset001.png7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png9.png\"}",
+        "name": "tilesets/tileset001.png9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png10.png\"}",
+        "name": "tilesets/tileset001.png10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png11.png\"}",
+        "name": "tilesets/tileset001.png11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png14.png\"}",
+        "name": "tilesets/tileset001.png14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png15.png\"}",
+        "name": "tilesets/tileset001.png15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png16.png\"}",
+        "name": "tilesets/tileset001.png16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png17.png\"}",
+        "name": "tilesets/tileset001.png17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"tilesets/tileset001.png17\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":160,\\\"width\\\":352,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWAAAACgCAYAAAAy/rZMAAAAAXNSR0IArs4c6QAABRpJREFUeF7t1MEJAAAIAzG7/9KOcZ+4QCHI7RwBAgQIJAJLVo0SIECAwAmwJyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAgIsB8gQIBAJCDAEbxZAgQICLAfIECAQCQgwBG8WQIECAiwHyBAgEAkIMARvFkCBAg8a1gAoX2dlzwAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[null],\"name\":\"tilesets/tileset001.png17\"}}",
+        "name": "tilesets/tileset001.png18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/tilesets/tileset001.png19.png\"}",
+        "name": "tilesets/tileset001.png19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilesets/tileset001.png22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/tileset001.png22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tilesets/nothing-happens-walls-windows-doors.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"tilesets/nothing-happens-walls-windows-doors.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tilesets/nothing-happens-walls-windows-doors.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tilesets/nothing-happens-walls-windows-doors-HALF.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilesets/nothing-happens-walls-windows-doors-HALF.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "tilesets/nothing-happens-doors.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilesets/nothing-happens-doors.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -704,6 +896,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Playable_Character",
+      "persistentUuid": "2a2f12f0-6265-4a4c-8129-7c3042f18dbf",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -971,6 +1164,7 @@
       "height": 32,
       "leftMargin": 10,
       "name": "dialogue_background",
+      "persistentUuid": "279c4b68-9baa-4fd4-aace-37df14865d7a",
       "rightMargin": 10,
       "texture": "NewPanelSprite5",
       "tiled": false,
@@ -995,6 +1189,7 @@
     {
       "assetStoreId": "",
       "name": "Message_box",
+      "persistentUuid": "3a916e25-2c6f-4804-946f-f1381762e12b",
       "type": "Message_box::Message_box",
       "variant": "",
       "variables": [
@@ -1013,6 +1208,7 @@
       "bold": false,
       "italic": false,
       "name": "dialogue_txt",
+      "persistentUuid": "08eb2ee4-4a67-4de9-b2cb-39b9a0dc4520",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1071,6 +1267,7 @@
       "bold": false,
       "italic": false,
       "name": "dialogue_txt_intro",
+      "persistentUuid": "8ff915b5-a517-4a7d-b2e4-c7a287baaf8b",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1483,11 +1680,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/main_scene-v2"
+      "referenceTo": "/layouts/main_scene-v2-terhi"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/main_scene-v3"
+      "referenceTo": "/layouts/main_scene-v3-pedro"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

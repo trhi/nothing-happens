@@ -239,6 +239,7 @@
       "bold": false,
       "italic": false,
       "name": "start_game",
+      "persistentUuid": "b5be1235-73e0-4fec-a266-a5debf98eb28",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -257,7 +258,7 @@
       "string": "(CLICK OR TAP ANYWHERE TO START THE GAME)",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 10,
+      "characterSize": 18,
       "color": {
         "b": 255,
         "g": 255,
@@ -281,7 +282,7 @@
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "center",
-        "characterSize": 10,
+        "characterSize": 18,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -906,7 +907,7 @@
               },
               "parameters": [
                 "",
-                "\"main_scene-V3\"",
+                "\"main_scene-V1\"",
                 ""
               ]
             }
@@ -933,7 +934,7 @@
               },
               "parameters": [
                 "",
-                "\"main_scene-V2\"",
+                "\"main_scene-V2-terhi\"",
                 ""
               ]
             }
@@ -960,7 +961,7 @@
               },
               "parameters": [
                 "",
-                "\"main_scene-V1\"",
+                "\"main_scene-V3-pedro\"",
                 ""
               ]
             }
