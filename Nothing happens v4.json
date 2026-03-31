@@ -1680,7 +1680,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/main_scene-v2-terhi"
+      "referenceTo": "/layouts/main_scene-v2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main_scene-v2-terhi-wip"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
