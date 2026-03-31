@@ -23,7 +23,7 @@ gdjs.webclickCode.GDFilter_9595endObjects1= [];
 gdjs.webclickCode.GDFilter_9595endObjects2= [];
 
 
-gdjs.webclickCode.userFunc0x1c003088 = function GDJSInlineCode(runtimeScene) {
+gdjs.webclickCode.userFunc0x1bd706c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (!gdjs.evtTools.systemInfo.isMobile()) return;
 if (!runtimeScene.getOnceTriggers().triggerOnce(200101)) return;
@@ -61,7 +61,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 {
 
 
-gdjs.webclickCode.userFunc0x1c003088(runtimeScene);
+gdjs.webclickCode.userFunc0x1bd706c8(runtimeScene);
 
 }
 

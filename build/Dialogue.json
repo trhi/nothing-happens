@@ -329,6 +329,16 @@
 		},
 		"colorID": 0
 	},
+		{
+		"title": "phone-terhi",
+		"tags": "",
+		"body": "call somebody?\nno network...\nbattery level 16%\nbetter put this down before it dies\nmaybe you can use it as a paperweight\nor just feel its weight in your hand\nit feels heavy\nmaybe it's the weight of the world\nor just a phone\nbut it feels heavy",
+		"position": {
+			"x": 1142,
+			"y": 794
+		},
+		"colorID": 0
+	},
 	{
 		"title": "washing",
 		"tags": "",

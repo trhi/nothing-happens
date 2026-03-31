@@ -353,7 +353,7 @@ gdjs.introCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.introCode.userFunc0x1c3daa00 = function GDJSInlineCode(runtimeScene) {
+};gdjs.introCode.userFunc0x1810aa70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 if (!gdjs.evtTools.systemInfo.isMobile()) return;
 if (!runtimeScene.getOnceTriggers().triggerOnce(200102)) return;
@@ -859,7 +859,7 @@ gdjs.copyArray(runtimeScene.getObjects("start_game"), gdjs.introCode.GDstart_959
 {
 
 
-gdjs.introCode.userFunc0x1c3daa00(runtimeScene);
+gdjs.introCode.userFunc0x1810aa70(runtimeScene);
 
 }
 
